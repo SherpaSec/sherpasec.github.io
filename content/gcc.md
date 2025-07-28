@@ -1,15 +1,11 @@
 ---
+title: "Global Cybersecurity Camp"
 author: SherpaSec
 authorimage: ../assets/images/global/SherpaSec_Logo.png
-title: "Global Cybersecurity Camp"
+featured_image: ../assets/images/global/gcc_banner.png
 summary: "The Global Cybersecurity Camp (GCC) is a week-long annual international cybersecurity training program, with hosting responsibilities rotating among participating countries. The mission of GCC is to strengthen the global security community and cultivate future cybersecurity leaders. Each year, the top 50 students from member countries gather in a host nation to exchange experiences, build lifelong friendships, and learn from leading cybersecurity professionals. Organized by non-commercial education programs and communities, the camp is supported by industry leaders committed to fostering a safer digital world."
 description: "The Global Cybersecurity Camp (GCC) is a week-long annual international cybersecurity training program, with hosting responsibilities rotating among participating countries. The mission of GCC is to strengthen the global security community and cultivate future cybersecurity leaders. Each year, the top 50 students from member countries gather in a host nation to exchange experiences, build lifelong friendships, and learn from leading cybersecurity professionals. Organized by non-commercial education programs and communities, the camp is supported by industry leaders committed to fostering a safer digital world."
 ---
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="/images/gcc/gcc_banner.png" class="sponsor-image-light" alt="GCC Banner" style="width: auto; height: auto; object-fit: cover;">
-    <img src="/images/gcc/gcc_banner.png" class="sponsor-image-dark" alt="GCC Banner" style="width: auto; height: auto; object-fit: cover;">
-</div>
 
 # Global Cybersecurity Camp (GCC)
 

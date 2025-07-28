@@ -98,15 +98,24 @@ params:
     facebook:
       enabled: false
       url: 'https://facebook.com/'
-    instagram:
-      enabled: false
-      url: 'https://instagram.com/'
     twitter:
       enabled: true
       url: 'https://twitter.com/@sherpasecmy'
     linkedin:
       enabled: true
       url: 'https://www.linkedin.com/company/sherpasec/'
+    linktree:
+      enabled: true
+      url: 'https://linktr.ee/sherpasec'
+    discord:
+      enabled: true
+      url: 'https://discord.gg/BQ3h7jAuzg'
+    instagram:
+      enabled: true
+      url: 'https://www.instagram.com/sherpasec/'
+    rednote:
+      enabled: true
+      url: 'https://www.xiaohongshu.com/user/profile/68652e37000000001e004e52'
 
 
 menu:

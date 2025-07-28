@@ -3,6 +3,245 @@
 @tailwind components;
 @tailwind utilities;
 
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-page {
+    flex-direction: column;
+}
+
+.landing-page .sherpasec-text {
+    flex-direction: column;
+}
+
+.logo-container .landing-page-logo {
+    margin-right: 50px;
+}
+
+.logo-container {
+    flex-direction: row;
+    width: 80%;
+    height: 90vh;
+}
+
+.discord {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    flex-direction: row;
+    display: inline-flex;
+    background: white;
+    margin-top: 15px;
+}
+
+.discord p {
+    color: black;
+}
+
+.discord svg {
+    margin-right: 10px;
+    color: black;
+}
+
+
+.discord.fcc:hover {
+    border-color: #0c7cba;
+    color: #0c7cba;
+}
+
+.discord.fcc:hover svg, .discord.fcc:hover p {
+    fill: #0c7cba;
+    color: #0c7cba;
+}
+
+.information {
+    flex-direction: row;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.information .image {
+    border-radius: 10px;
+    width: 55%;
+    margin: 30px;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; 
+    overflow: hidden;
+}
+
+.information .information-text {
+    flex-direction: column;
+    margin: 30px;
+    width: 45%;
+}
+
+.information .title {
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    font-size: 2.25rem;
+    --tw-text-opacity: 1;
+    color: rgb(249 250 251 / var(--tw-text-opacity));
+}
+
+.information .partner {
+    width: 100%;
+    text-align: left;
+}
+
+.custom-text {
+    text-align: justify;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    margin: 10px 0;
+    font-size: 1.15rem;
+}
+
+.content-container { 
+    flex-direction: column;
+}
+
+.content {
+    flex-direction: column;
+    width: 100vw;
+    margin: 50px 0 100px 0;
+}
+
+.content .text-container {
+    width: 50%;
+}
+
+.content .text-container p {
+    margin: 15px 0;
+}
+
+.content .image {
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; 
+    overflow: hidden;
+}
+
+.content .text-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.content .text-container h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.content .text-container h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+}
+
+hr {
+    margin: 1.5em 0;
+}
+
+.content .text-container ul {
+    list-style-type: disc;
+    margin-bottom: 1.25em;
+    padding-left: 1.625em;
+}
+
+.content .text-container li {
+   padding-left: 0.375rem;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+
+.content .text-container a {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #18d2d2;
+}
+
+article header h1 {
+    padding: 6rem 0;
+}
+
+
+@media (max-width: 1080px) {
+    .logo-container {
+        flex-direction: column-reverse;
+        height: 75vh;
+        margin-top: 35px;
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-container .sherpasec-text {
+        margin-bottom: 10px;
+    }
+
+    .logo-container .landing-page-logo {
+        margin: 50px 0 75px 0;
+    }
+
+    .information {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .information .image {
+        width: 80%;
+    }
+
+    .information .information-text {
+        width: 80%;
+    }
+
+    .content .text-container {
+        width: 70%;
+    }
+
+    .content .image {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .information {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .information .image {
+        width: 90%;
+    }
+
+    .information .information-text {
+        width: 90%;
+    }
+
+    .content .text-container {
+        width: 85%;
+    }
+
+    .content .image {
+        width: 85%;
+    }
+}
+
 font-family: ui-sans-serif,
 system-ui,
 -apple-system,

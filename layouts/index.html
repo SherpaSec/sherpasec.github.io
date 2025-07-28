@@ -1,171 +1,118 @@
 {{ define "main" }}
 <main>
-    <div class="bg-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto">
-            <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
-                <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
-                    <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white conthrax-sb-font uppercase">
-                        {{ .Site.Title }}
-                    </h1>
-                    <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
-                        {{ .Site.Params.Moto }}
-                    </h2>
-                    <p
-                        class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                        {{ .Site.Params.Description}}
-                    </p>
-                </div>
-                <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/SherpaSec_Logo_769.webp" }}
-
-                    {{ $thumb := ($hero.Fill "400x420 webp q90") }}
-                    {{ $large := ($hero.Fill "1100x1300 webp q90") }}
-
-                    <img srcset="
-                            {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                            {{- with $large.RelPermalink -}}, {{.}} 1300w{{- end -}}" src="{{ $hero.RelPermalink }}"
-                        width="50%" height="" alt="TailBliss Hero" class="w-40 max-w-xl mx-auto rounded-lg" />
-            </div>
-        </div>
-    </div>
-
-    <!-- More main page content here... -->
-
-    <!-- Our mission section -->
-    <div class="relative my-4">
-        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
-            <div class="relative sm:py-8 lg:py-0">
-                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-                    <div
-                        class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72">
-                    </div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404"
-                        height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
-                        <defs>
-                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
-                                patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
-                                    fill="currentcolor"></rect>
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
-                    </svg>
-                </div>
-                <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
-                    <div class="overflow-hidden shadow-xl rounded-2xl">
-                        {{ $p1image := resources.Get .Site.Params.P1.Image }}
-                        {{ with $p1image }}
-                        {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
-                            class="w-full h-auto" alt="P1" loading="lazy" />
-                        {{ end }}
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
-                <div class="md:pt-12 sm:pt-6 lg:pt-20">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                        {{ .Site.Params.P1.Heading }}
-                    </h2>
-                    <div class="mt-6 text-gray-900 dark:text-white">
-                        <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
-                            {{ range .Site.Params.P1.Content }}
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                {{ .text }}
-                            </p>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- JITsection -->
-    <div class="overflow-hidden sm:pt-6 lg:relative">
-        <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
-            <div>
-                <div class="md:mt-8">
-                    <div class="mt-6 sm:max-w-xl">
-                        <h2
-                            class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mt-16">
-                            {{ .Site.Params.P2.Heading }}
-                        </h2>
-                        {{ range .Site.Params.P2.Content }}
-                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
-                            {{ .text | markdownify}}
-                        </p>
-                        {{ end }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-            <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <div class="hidden sm:block">
-                    <div
-                        class="absolute inset-y-0 w-screen left-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:left-80 lg:right-0 lg:w-full">
-                    </div><svg class="absolute -mr-3 top-8 right-1/2 lg:left-0 lg:m-0" width="404" height="392" fill="none"
-                        viewBox="0 0 404 392" loading="lazy">
-                        <defs>
-                            <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20"
-                                patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
-                                    fill="currentcolor"></rect>
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
-                    </svg>
-                </div>
-                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-                    {{ $p2image := resources.Get .Site.Params.P2.Image }}
-                    {{ with $p2image }}
-                    {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                    <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2"
-                        class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
-                    {{ end }}
-                    {{ end }}
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Sponsors section -->
-    <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="mt-12 grid gap-0.5">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex justify-center col-span-1 bg-gray-50 dark:bg-gray-900/10">
-                    {{ if .image }}
-                    {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-50 max-w-50 :invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-50 max-w-50 :invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                    {{ .Site.Params.P3.Heading }}
+    <div class="bg-gray-200 dark:bg-gray-900 fcc landing-page">
+        <div class="logo-container fcb">
+            <div class="lg:text-left sherpasec-text fsc">
+                <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white conthrax-sb-font uppercase">
+                    {{ .Site.Title }}
+                </h1>
+                <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl" style="color: #0de7e5;">
+                    {{ .Site.Params.Moto }}
                 </h2>
-                {{ range .Site.Params.P3.Content }}
-                <p class="max-w-3xl mt-6 text-lg leading-7 text-gray-900 dark:text-white">
-                    {{ .text }}
+                <p
+                    class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                    {{ .Site.Params.Description}}
                 </p>
-                {{ end }}
-                {{ range .Site.Params.P3.Links }}
-                <div class="my-6">
-                    <a href="{{ .url }}" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                        {{ .text }}&nbsp&rarr;
-                    </a>
-                </div>
-                {{ end }}
+                <a href="https://discord.gg/BQ3h7jAuzg" target="_blank" rel="noopener noreferrer" class="no-underline">
+                    <div class="discord fcc" style="cursor: pointer;">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="1.125rem" 
+                            height="1.125rem" 
+                            class="bi bi-mastodon" 
+                            viewBox="0 0 512 388.049">
+                            <path fill-rule="evenodd" d="M433.713 32.491A424.231 424.231 0 00328.061.005c-4.953 8.873-9.488 18.156-13.492 27.509a393.937 393.937 0 00-58.629-4.408c-19.594 0-39.284 1.489-58.637 4.37-3.952-9.33-8.543-18.581-13.525-27.476-36.435 6.212-72.045 17.196-105.676 32.555-66.867 98.92-84.988 195.368-75.928 290.446a425.967 425.967 0 00129.563 65.03c10.447-14.103 19.806-29.116 27.752-44.74a273.827 273.827 0 01-43.716-20.862c3.665-2.658 7.249-5.396 10.712-8.055 40.496 19.019 84.745 28.94 129.514 28.94 44.77 0 89.019-9.921 129.517-28.943 3.504 2.86 7.088 5.598 10.712 8.055a275.576 275.576 0 01-43.796 20.918 311.49 311.49 0 0027.752 44.705 424.235 424.235 0 00129.65-65.019l-.011.011c10.632-110.26-18.162-205.822-76.11-290.55zM170.948 264.529c-25.249 0-46.11-22.914-46.11-51.104 0-28.189 20.135-51.304 46.029-51.304 25.895 0 46.592 23.115 46.15 51.304-.443 28.19-20.336 51.104-46.069 51.104zm170.102 0c-25.29 0-46.069-22.914-46.069-51.104 0-28.189 20.135-51.304 46.069-51.304s46.472 23.115 46.029 51.304c-.443 28.19-20.296 51.104-46.029 51.104z"/>
+                        </svg>
+                        <p class="max-w-xl mx-auto font-normal text-gray-900 lg:mx-0 md:text-lg xl:text-xl">
+                            Join Our Discord
+                        </p>
+                    </div>
+                </a>
             </div>
+            <div class="col-span-6">
+                {{ $hero := resources.GetMatch "images/pages/SherpaSec_Logo_769.webp" }}
+
+                {{ $thumb := ($hero.Fill "400x420 webp q90") }}
+                {{ $large := ($hero.Fill "1100x1300 webp q90") }}
+
+                <img srcset="
+                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 1300w{{- end -}}" src="{{ $hero.RelPermalink }}"
+                    width="50%" height="" alt="TailBliss Hero" class="w-40 max-w-xl mx-auto rounded-lg landing-page-logo" />
+            </div>
+        </div>
+
+    <div class="information fcb">
+        <div class="overflow-hidden image">
+            {{ $p1image := resources.Get .Site.Params.P1.Image }}
+            {{ with $p1image }}
+            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
+                class="w-full h-auto" alt="P1" loading="lazy" />
+            {{ end }}
+        </div>
+        <div class="fcc information-text">
+            <h2 class="title">
+                {{ .Site.Params.P1.Heading }}
+            </h2>
+            {{ range .Site.Params.P1.Content }}
+            <p class="custom-text">
+                {{ .text }}
+            </p>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="information fcb">
+        <div class="fcc information-text">
+            <h2 class="title">
+                {{ .Site.Params.P2.Heading }}
+            </h2>
+            {{ range .Site.Params.P2.Content }}
+            <p class="custom-text">
+                {{ .text | markdownify }}
+            </p>
+            {{ end }}
+        </div>
+        <div class="overflow-hidden image">
+                {{ $p2image := resources.Get .Site.Params.P2.Image }}
+                {{ with $p2image }}
+            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
+                class="w-full h-auto" alt="P1" loading="lazy" />
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="information fcb">
+        {{ range .Site.Params.P3.Logos }}
+        <div class="overflow-hidden image">
+            {{ if .image }}
+            {{ $sponsor := resources.Get .image }}
+            <img src="{{ $sponsor.RelPermalink }}" class="w-full h-auto" alt="{{ .alt }}" loading="lazy" />
+            {{ else }}
+            {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
+            <img src="{{ $sponsor.RelPermalink }}" class="w-full h-auto" alt="{{ .alt }}" loading="lazy" />
+            {{ end }}
+        </div>
+        {{ end }}
+        <div class="fcc information-text">
+            <h2 class="title">
+                {{ .Site.Params.P3.Heading }}
+            </h2>
+            {{ range .Site.Params.P3.Content }}
+            <p class="custom-text">
+                {{ .text | markdownify }}
+            </p>
+            {{ end }}
+            {{ range .Site.Params.P3.Links }}
+            <div class="my-6 partner">
+                <a href="{{ .url }}" 
+                class="text-base font-medium text-primary-400 dark:text-primary-100" 
+                style="text-decoration: none;" 
+                onmouseover="this.style.textDecoration='underline'" 
+                onmouseout="this.style.textDecoration='none'">
+                {{ .text }}&nbsp;&rarr;
+                </a>
+            </div>
+            {{ end }}
         </div>
     </div>
 
@@ -196,7 +143,7 @@
                                 {{ with resources.Get . }}
                                 {{ $postimage := (.Resize "500x webp q90").RelPermalink }}
                                 <img src="{{ $postimage }}" class="object-fill overflow-hidden rounded-t-lg" width="100%" height="" loading="lazy"
-                                    alt="{{ .Title }}" />
+                                    alt="{{ .Title }}" style="object-fit: cover; height: 250px;" />
 
                                 {{ end }}
                                 {{ end }}

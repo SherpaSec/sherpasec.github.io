@@ -1,10 +1,12 @@
 ---
 title: "About"
+author: SherpaSec
 date: 2000-12-18T11:10:36+08:00
 draft: false
 language: en
 description: About Us
 featured_image: ../assets/images/featured/SHERPASEC_BANNER.png
+authorimage: ../assets/images/global/SherpaSec_Logo.png
 ---
 
 Persatuan Keselamatan Siber Teknologi Malaysia: PPM-001-04-02022024

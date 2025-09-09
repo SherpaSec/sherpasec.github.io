@@ -1,5 +1,5 @@
 ---
-title: "Mini CTF - Aug 2024"
+title: "Mini CTF - Aug 2025"
 date: 2025-08-28
 draft: false
 language: en
@@ -20,4 +20,4 @@ Congratulations to all the winners who took home some well-earned swag, and a bi
 
 Thank you once again to Range Village for collaborating with us, and to the community for showing up and making this CTF a success. Until the next one!
 
-![Event_Poster](/images/posters/20250830_Poster_Aug.png)
+![Event_Poster](/images/posters/20250830_Poster_Aug.jpg)

@@ -35,3 +35,6 @@ SherpaSec was honored to be one of the supporters of [Out Of The Box - Jakarta](
 Cyber Digital Services, Defence and Security Asia (CyberDSA) is a premier content-driven event, bringing together key stakeholders dedicated to protecting national, public, and business interests in cyberspace. The event connects decision-makers from both government and private sectors, driving forward their cyber defense and security agendas. It offers a platform to share the latest cybersecurity knowledge and insights while showcasing cutting-edge technologies that are essential for safeguarding digital economies and enhancing global competitiveness.
 
 SherpaSec was proud to serve as the Community Outreach Partner for CyberDSA 2024, where we hosted a booth in the Community Lounge to share our vision and mission!
+
+# [c0c0n](http://c0c0n.org/)
+c0c0n is India’s longest-running and premier cybersecurity and hacking conference, celebrated for bringing together the brightest minds in information security, data protection, and privacy. Hosted annually at the scenic Grand Hyatt in Kochi, Kerala, the event unites cybersecurity professionals, researchers, government agencies, law enforcement, and students to collaborate on safeguarding digital futures.

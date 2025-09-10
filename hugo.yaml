@@ -165,7 +165,7 @@ menu:
     - identifier: past-events
       name: Past Events
       url: categories/past-events/
-      weight: 20
+      weight: 1
     # - identifier: sponsored-local-ctf-teams
     #   name: Sponsored CTF Team
     #   url: sponsored-local-ctf-teams
@@ -177,7 +177,11 @@ menu:
     - identifier: community-partners
       name: Community Partners
       url: community-partners
-      weight: 5
+      weight: 2
+    - identifier: logos
+      name: Sherpasec Logos
+      url: logos
+      weight: 3
     # - identifier: SherpaCTF 2024
     #   name: SherpaCTF 2024
     #   url: sherpactf-24/

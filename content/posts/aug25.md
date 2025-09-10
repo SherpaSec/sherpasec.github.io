@@ -1,5 +1,5 @@
 ---
-title: "Mini CTF - Aug 2025"
+title: "Mini AD CTF - Aug 2025"
 date: 2025-08-28
 draft: false
 language: en

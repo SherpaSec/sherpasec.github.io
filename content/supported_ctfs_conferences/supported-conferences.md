@@ -38,3 +38,7 @@ SherpaSec was proud to serve as the Community Outreach Partner for CyberDSA 2024
 
 # [c0c0n](http://c0c0n.org/)
 c0c0n is India’s longest-running and premier cybersecurity and hacking conference, celebrated for bringing together the brightest minds in information security, data protection, and privacy. Hosted annually at the scenic Grand Hyatt in Kochi, Kerala, the event unites cybersecurity professionals, researchers, government agencies, law enforcement, and students to collaborate on safeguarding digital futures.
+
+# [DefCamp](https://def.camp/)
+
+DefCamp is the largest cybersecurity conference in Central and Eastern Europe, bringing together experts, ethical hackers, C-level executives, and decision-makers from around the world. The event features high-level panels on post-quantum security, AI-driven threats, supply-chain resilience, and critical infrastructure protection, alongside hands-on challenges in the Hacking Village and CTF competitions.

@@ -75,7 +75,7 @@ SherpaSec was honored to be one of the supporters of [Out Of The Box - Jakarta](
 
 # [c0c0n](http://c0c0n.org/)
 <div style="display: flex; justify-content: center; background: transparent; width: 80%; margin: 30px 0">
-    <img src="/images/supported-conferences/C0C0N.png" alt="sincon">
+    <img src="/images/supported-conferences/C0C0N Logo.png" alt="sincon">
 </div>
 
 c0c0n is India’s longest-running and premier cybersecurity and hacking conference, celebrated for bringing together the brightest minds in information security, data protection, and privacy. Hosted annually at the scenic Grand Hyatt in Kochi, Kerala, the event unites cybersecurity professionals, researchers, government agencies, law enforcement, and students to collaborate on safeguarding digital futures.

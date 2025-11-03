@@ -20,6 +20,6 @@ ___
 </div></br>
 <p>
   Feel free to download our branding logos here:  
-  <a href="/images/SherpaSec Logo.zip" download>Download Logos</a>
+  <a href="/images/SherpaSec Logo.rar" download>Download Logos</a>
 </p>
 ___

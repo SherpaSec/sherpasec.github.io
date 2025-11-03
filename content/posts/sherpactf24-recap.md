@@ -24,16 +24,110 @@ SherpaCTF 2024 concluded successfully, and we would like to thank everyone, spon
 
 We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZero, MoneyLion, OffSec, PentesterLab, N0H4TS, and VerdeSec for their generous contributions to the success of this event.
 
-![Event_Poster](/images/posters/sherpactf24-group-photo.gif)
+<section aria-label="Quick statistics" class="mx-auto max-w-4xl my-8 p-1 rounded-lg bg-transparent">
+<h3 class="text-center text-white font-semibold mb-6">Quick Statistics</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="rounded-lg border-2 border-[#0C7CBA] p-8 text-center bg-transparent">
+<div class="text-3xl md:text-4xl font-extrabold text-white">120</div>
+<div class="mt-2 text-sm text-neutral-300">participants registered in 16 hours</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-8 text-center bg-transparent">
+<div class="text-3xl md:text-4xl font-extrabold text-white">100%</div>
+<div class="mt-2 text-sm text-neutral-300">show rate</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-8 text-center bg-transparent">
+<div class="text-3xl md:text-4xl font-extrabold text-white">RM 23K</div>
+<div class="mt-2 text-sm text-neutral-300">Prize Pool</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-8 text-center bg-transparent">
+<div class="text-3xl md:text-4xl font-extrabold text-white">1st</div>
+<div class="mt-2 text-sm text-neutral-300">Malaysian Hackathon Style CTF</div>
+</div>
+</div>
+</section>
 
-## Open Category CTF Winners
-![Event_Poster](/images/posters/sherpactf24-open-cat-ctf-winners.gif)
+<section aria-label="Player testimonies" class="mx-auto max-w-4xl my-8 p-1">
+<h3 class="text-center text-white font-semibold mb-6">Player Testimonies</h3>
+<div class="flex flex-col gap-6">
+<div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+<span class="text-4xl text-white">“</span>
+<div class="text-neutral-300">It is my first time joining physical CTF + presentation and still the best CTF for me.</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+<span class="text-4xl text-white">“</span>
+<div class="text-neutral-300">The collaborative spirit and knowledge sharing during the presentations added immense value, making it a memorable and enriching event.</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+<span class="text-4xl text-white">“</span>
+<div class="text-neutral-300">Was ‘forced’ to attempt challenges that I usually won't even attempt, because the categories are more focused compared to the CTF I joined before.</div>
+</div>
+<div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+<span class="text-4xl text-white">“</span>
+<div class="text-neutral-300">Please give some pwn challenges that are easier, ret2syscall is hard but it is very interesting.</div>
+</div>
+</div>
+</section>
 
-## Open Category Presentations Winners
-![Event_Poster](/images/posters/sherpactf24-open-cat-presentations-winners.gif)
+<section aria-label="Open category winners" class="mx-auto max-w-4xl my-12 p-1">
+<h2 class="text-center text-white text-2xl font-bold mb-4">Open Category Winners</h2>
+<h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
+<div class="flex flex-col gap-4 mb-8">
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">1 <span class="mx-4 font-semibold">M53_TEABAG</span></div>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">2 <span class="mx-4 font-semibold">CYRUSNISM</span></div>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">3 <span class="mx-4 font-semibold">CTRL+SHIFT+HACKERS</span></div>
+</div>
 
-## Student Category CTF Winners
-![Event_Poster](/images/posters/sherpactf24-stud-cat-ctf-winners.gif)
+<div class="flex flex-col md:flex-row md:gap-6 gap-6">
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Professional)</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CTRL+SHIFT+HACKERS</div>
+    </div>
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Creative)</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">M53_TEABAG</div>
+    </div>
+</div>
 
-## Student Category Presentations Winners
-![Event_Poster](/images/posters/sherpactf24-stud-cat-presentations-winners.gif)
+<div class="flex flex-col md:flex-row md:gap-6 gap-6 mt-6">
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presentation Materials</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CYRUSNISM</div>
+    </div>
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Technical Presentation</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">UMBREON</div>
+    </div>
+</div>
+</section>
+
+<section aria-label="Student category winners" class="mx-auto max-w-4xl my-12 p-1">
+<h2 class="text-center text-white text-2xl font-bold mb-4">Student Category Winners</h2>
+<h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
+<div class="flex flex-col gap-4 mb-8">
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">1 <span class="mx-4 font-semibold">SQUAD BUSTER</span></div>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">2 <span class="mx-4 font-semibold">IDK</span></div>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">3 <span class="mx-4 font-semibold">N3K0_1N_B0X</span></div>
+</div>
+
+<div class="flex flex-col md:flex-row md:gap-6 gap-6">
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Professional)</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">SQUAD BUSTER</div>
+    </div>
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Creative)</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">N3K0_1N_B0X</div>
+    </div>
+</div>
+
+<div class="flex flex-col md:flex-row md:gap-6 gap-6 mt-6">
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Presentation Materials</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CH33T4H</div>
+    </div>
+    <div class="flex-1">
+        <h4 class="text-white text-sm font-semibold mb-4 text-center">Best Technical Presentation</h4>
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">IDK</div>
+    </div>
+</div>
+</section>

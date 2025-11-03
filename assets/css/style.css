@@ -3583,6 +3583,20 @@ video {
   text-align: left;
 }
 
+.sponsors {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sponsors img {
+  max-width: 8vw;
+  margin: 10px 15px
+}
+
+.sponsors h3 {
+  font-size: 1.25rem;
+}
+
 .custom-text {
   text-align: justify;
   --tw-text-opacity: 1;

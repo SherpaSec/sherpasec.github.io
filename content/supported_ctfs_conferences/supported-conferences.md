@@ -34,6 +34,13 @@ MY Hack is an offensive-research focused conference organized by Casaba Security
 
 Parallel Pulse @ NanoSec is Malaysia’s defensive-security conference that brings together frontline researchers and practitioners focused on improving how we prevent, detect, respond, and recover in cybersecurity. The organisers are looking for original talks and demos in areas like threat hunting, incident response & forensics, SOC and AI, cloud/infrastructure defense, open-source defense tools, cyber law, risk models, and even experimental or unconventional work. SherpaSec is honoured to support Pulse and looks forward to seeing fresh ideas from defenders shaping the future of security.
 
+## [AVAR 2025 KL](https://events.aavar.org/cybersecurity-conference/index.php/rm-registration/)
+<div style="display: flex; justify-content: center; background: transparent; width: 60%; margin: 30px 0">
+    <img src="/images/supported-conferences/avar.jpg" alt="avar">
+</div>
+
+AVAR 2025 gathers cyber security professionals, threat researchers, and cyber defense leaders from around the world under the theme of ‘Shifting Power In Cyber Defense.’ The conference’s objective is to improve cyber security awareness and personal interaction among critical stakeholders to catalyze international cooperation against cyber attacks. AVAR 2025 is Asia’s most impactful cyber security conference, combining training, research presentations, leader-focused panel discussions, CISO workshop, and opportunities to network with solution creators. AVAR 2025 features 350+ delegates and 50+ speakers, and recognizes pathbreaking cyber security leaders by presenting Best CISO Awards in 5 categories.
+
 # Singapore
 
 ## [SINCON](https://www.infosec-city.com/)

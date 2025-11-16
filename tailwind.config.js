@@ -5,6 +5,13 @@ module.exports = {
   content: ['./layouts/**/*.html', './content/**/*.md'],
   darkMode: 'class',
   theme: {
+    screens: {
+      sm: '640px',
+      md: '1300px',   // changed from 768px → 1300px
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
         transparent: 'transparent',

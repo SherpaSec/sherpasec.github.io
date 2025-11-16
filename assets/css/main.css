@@ -3,10 +3,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.landing-page-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-page-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+.black-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    opacity: 0.75;
+}
+
 .fcc {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fss {
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
 .fcb {
@@ -23,14 +55,54 @@
     flex-direction: column;
 }
 
+.landing-page .sherpasec-text p {
+    text-align: center;
+}
+
 .logo-container .landing-page-logo {
     margin-right: 50px;
 }
 
 .logo-container {
     flex-direction: row;
-    width: 80%;
-    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.sponsors-2025 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sponsors-2025.platinum-sponsors, .sponsors-2025.bronze-sponsors, .sponsors-2025.bik-sponsors {
+    border: 2px solid #0C7CBA;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sponsors-2025.platinum-sponsors img.div0 {
+    max-width: 7vw;
+}
+
+.sponsors-2025.platinum-sponsors img, .sponsors-2025.bronze-sponsors img {
+    height: auto;
+    margin: 25px 15px; 
+    max-width: 14vw;
+}
+
+.sponsors-2025.bik-sponsors img {
+    max-width: 8vw;
+}
+
+.sponsors-2025 h3 {
+    font-size: 1.25rem;
 }
 
 .discord {
@@ -52,7 +124,6 @@
     color: black;
 }
 
-
 .discord.fcc:hover {
     border-color: #0c7cba;
     color: #0c7cba;
@@ -61,6 +132,91 @@
 .discord.fcc:hover svg, .discord.fcc:hover p {
     fill: #0c7cba;
     color: #0c7cba;
+}
+
+.information.mission, .information.community-call, .information.community-partners {
+    flex-direction: column;
+    width: 60%;
+    margin-top: 100px;
+}
+
+.information.mission .title, .information.community-call .title, .information.community-partners .title {
+    text-align: center;
+}
+
+.information.community-partners .community-partner-logos > .div0 {
+    max-width: 12vw;
+}
+
+.information.community-partners img {
+    max-width: 17vw;
+    margin: 0px 25px;
+}
+
+.information.community-partners .button {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    flex-direction: row;
+    display: inline-flex;
+    background: transparent;
+    color: white;
+    margin: 50px 0px;
+}
+
+.information.community-partners .community-partner-logos {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 100vw;      
+  position: relative;  
+  left: 0%;         
+  right: 0%;
+  margin-left: -50vw;  
+  margin-right: -50vw; 
+  margin-top: 50px;
+}
+
+.information.community-partners .button:hover {
+    border-color: #0C7CBA;
+    color: #0C7CBA;
+}
+
+.information.mission .text-container {
+    flex-direction: row;
+}
+
+.information.mission .text-container .mission-items {
+    flex-direction: column;
+    width: 33.33%;
+}
+
+.information.mission .text-container .mission-items img {
+  border-radius: 50%;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  filter: invert(1);
+  border: 2px solid #F38345;
+}
+
+.information.mission .text-container .mission-items:nth-child(2) .custom-text  {
+  border-left: 2px solid #0C7CBA;
+  border-right: 2px solid #0C7CBA;
+  padding: 0 2rem; 
+}
+
+
+.information.mission .text-container p {
+    margin: 10px;
+}
+
+.information.mission img, .information.community-call img {
+    border-radius: 10px;
+    margin: 30px;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; 
+    overflow: hidden;
 }
 
 .information {
@@ -84,18 +240,30 @@
     width: 45%;
 }
 
-.information .title {
-    text-align: left;
+.information .title, .past-events .title {
+    text-align: center;
     width: 100%;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2.25rem;
-    --tw-text-opacity: 1;
-    color: rgb(249 250 251 / var(--tw-text-opacity));
+    color: white;
 }
 
 .information .partner {
     width: 100%;
     text-align: left;
+}
+
+.landing-page-past-events-summary {
+    text-align: justify;
+}
+
+.landing-page-past-events {
+    box-shadow: 0 0 2px #0C7CBA;
+}
+
+.sponsors-container {
+    flex-direction: column;
+    width: 100%;
 }
 
 .sponsors {
@@ -192,15 +360,22 @@ article header h1 {
     padding: 6rem 0;
 }
 
-
 @media (max-width: 1080px) {
-    .logo-container {
-        flex-direction: column-reverse;
-        height: 75vh;
-        margin-top: 35px;
-        width: 85%;
-        align-items: center;
-        justify-content: center;
+    .sponsors-2025.platinum-sponsors img.div0 , .sponsors-2025.bik-sponsors img {
+        max-width: 10vw;
+    }
+
+    .sponsors-2025.platinum-sponsors img, .sponsors-2025.bronze-sponsors img {
+        max-width: 18vw;
+    }
+
+    .sponsors img {
+        max-width: 13vw;
+        margin: 10px 15px
+    }
+
+    .information.mission, .information.community-call, .information.community-partners {
+        width: 75%;
     }
 
     .logo-container .sherpasec-text {
@@ -234,6 +409,53 @@ article header h1 {
 }
 
 @media (max-width: 768px) {
+    .sponsors-2025.platinum-sponsors img.div0 , .sponsors-2025.bik-sponsors img {
+        max-width: 18vw;
+    }
+
+    .sponsors-2025.platinum-sponsors img, .sponsors-2025.bronze-sponsors img {
+        max-width: 28vw;
+    }
+
+    .sponsors img {
+        max-width: 19vw;
+        margin: 10px 15px
+    }
+
+    .information.community-partners .community-partner-logos > .div0 {
+        max-width: 15vw;
+    }
+
+    .information.community-partners img {
+        max-width: 20vw;
+        margin: 0px 25px;
+    }
+
+    .information.mission, .information.community-call, .information.community-partners {
+        width: 85%;
+    }
+
+    .logo-container .sherpasec-text {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .information.mission .text-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .information.mission .text-container .mission-items {
+        width: 100%;
+    }
+
+    .information.mission .text-container .mission-items:nth-child(2) .custom-text  {
+        border-left: none;
+        border-right: none;
+        padding: 0; 
+    }
+
     .information {
         flex-direction: column;
         width: 90%;
@@ -253,6 +475,17 @@ article header h1 {
 
     .content .image {
         width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .information.community-partners .community-partner-logos > .div0 {
+        max-width: 35vw;
+    }
+
+    .information.community-partners img {
+        max-width: 45vw;
+        margin: 0px 15px;
     }
 }
 

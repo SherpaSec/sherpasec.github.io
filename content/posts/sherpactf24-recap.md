@@ -46,7 +46,7 @@ We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZ
     </div>
 </section>
 
-<section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1">
+<section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1 sponsors-container fcc">
     <h2 class="text-center text-white text-2xl font-bold mb-4">Our Sponsors</h2>
     <h3 class="text-center text-white font-medium my-4">Venue Sponsor</h3>
     <div class="fcc sponsors venue-sponsor">

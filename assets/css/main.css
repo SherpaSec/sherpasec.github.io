@@ -78,7 +78,7 @@
     flex-wrap: wrap;
 }
 
-.sponsors-2025.platinum-sponsors, .sponsors-2025.bronze-sponsors, .sponsors-2025.bik-sponsors {
+.sponsors-2025.platinum-sponsors, .sponsors-2025.bronze-sponsors, .sponsors-2025.bik-sponsors, .sponsors-2025.gold-sponsors {
     border: 2px solid #0C7CBA;
     border-radius: 5px;
     padding: 20px;
@@ -95,6 +95,10 @@
     height: auto;
     margin: 25px 15px; 
     max-width: 14vw;
+}
+
+.sponsors-2025.gold-sponsors img {
+    max-width: 12vw;
 }
 
 .sponsors-2025.bik-sponsors img {

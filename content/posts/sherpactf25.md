@@ -3,7 +3,7 @@ title: "SherpaCTF 2025"
 date: 2024-08-08
 draft: false
 language: en
-featured_image: ../assets/images/featured/sherpactf25.jpg
+featured_image: ../assets/images/featured/banner.png
 summary: '❗Word is out, SherpaCTF 2025 is in the works! That’s right, after an incredible SherpaCTF 2024 we’re back this year with SherpaCTF 2025 and this time, we’re proud to partner up with 🚀 Parallel Pulse. Keep an eye out for updates. You wouldn’t want to miss this 🕶️'
 description: '❗Word is out, SherpaCTF 2025 is in the works! That’s right, after an incredible SherpaCTF 2024 we’re back this year with SherpaCTF 2025 and this time, we’re proud to partner up with 🚀 Parallel Pulse. Keep an eye out for updates. You wouldn’t want to miss this 🕶️'
 author: SherpaSec
@@ -13,11 +13,11 @@ tags:
     - SherpaCTF
 ---
 
-❗Word is out, SherpaCTF 2025 is in the works! 
+<img src="/images/sherpactf/1.png" alt="1" class='hehe' style='margin: 10px 0; border-radius: 10px' />
 
-That’s right, after an incredible SherpaCTF 2024 we’re back this year with SherpaCTF 2025 and this time, we’re proud to partner up with 🚀 Parallel Pulse. 
+<img src="/images/sherpactf/2.png" alt="2" class='hehe' style='margin: 10px 0; border-radius: 10px' />
 
-Keep an eye out for updates. You wouldn’t want to miss this 🕶️
+<img src="/images/sherpactf/3.png" alt="3" class='hehe' style='margin: 10px 0; border-radius: 10px' />
 
 <section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1 sherpactf-2025">
     <h2 class="text-center text-white text-2xl font-bold mb-4">Our Sponsors</h2>
@@ -25,6 +25,10 @@ Keep an eye out for updates. You wouldn’t want to miss this 🕶️
     <div class="fcc sponsors-2025 platinum-sponsors">
         <img src="/images/sherpactf/div0_new2.png" alt="Div0" class='div0' />
         <img src="/images/sherpactf/W Font.png" alt="THG" class='thg' />
+    </div>
+    <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
+    <div class="fcc sponsors-2025 gold-sponsors">
+        <img src="/images/sherpactf/SIGNALENS.PNG" alt="Signalens" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Bronze Sponsors</h3>
     <div class="fcc sponsors-2025 bronze-sponsors">

@@ -46,24 +46,24 @@ We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZ
     </div>
 </section>
 
-<section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1 sponsors-container fcc">
+<section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1 sponsors-2024-container fcc">
     <h2 class="text-center text-white text-2xl font-bold mb-4">Our Sponsors</h2>
     <h3 class="text-center text-white font-medium my-4">Venue Sponsor</h3>
-    <div class="fcc sponsors venue-sponsor">
+    <div class="fcc sponsors-2024 venue-sponsor">
         <img src="/images/sherpactf/delltech-logo-stk-blue-wht.png" alt="Dell" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Platinum Sponsors</h3>
-    <div class="fcc sponsors platinum-sponsors">
+    <div class="fcc sponsors-2024 platinum-sponsors">
         <img src="/images/sherpactf/div0_white.png" alt="Div0" />
         <img src="/images/sherpactf/kotex_white.png" alt="KOTEX" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
-    <div class="fcc sponsors gold-sponsors">
+    <div class="fcc sponsors-2024 gold-sponsors">
         <img src="/images/sherpactf/ArmourZero_White.png" alt="Armour Zero" />
         <img src="/images/sherpactf/MoneyLion_Logo_RGB_Vertical_Outline_White.png" alt="MoneyLion" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Benefit-in-Kind</h3>
-    <div class="fcc sponsors bik-sponsors">
+    <div class="fcc sponsors-2024 bik-sponsors">
         <img src="/images/sherpactf/pentesterlab_logo_white.png" alt="PentesterLab" />
         <img src="/images/sherpactf/OffSec_Tagline_White.png" alt="OffSec" />
         <img src="/images/sherpactf/n0h4ts-logo-black.png" alt="N0H4TS" />

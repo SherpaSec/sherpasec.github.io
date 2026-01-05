@@ -1,0 +1,27 @@
+{{/*
+  Shortcode for sponsor sections in markdown files
+
+  Usage in markdown:
+  {{< sponsor-section year="2024" >}}
+  venue:
+    - name: Dell
+      image: /images/sherpactf/delltech-logo-stk-blue-wht.png
+  platinum:
+    - name: Div0
+      image: /images/sherpactf/div0_white.png
+    - name: KOTEX
+      image: /images/sherpactf/kotex_white.png
+  {{< /sponsor-section >}}
+*/}}
+
+{{- $data := dict -}}
+{{- with .Get "title" }}{{ $data = merge $data (dict "title" .) }}{{ end -}}
+{{- with .Get "year" }}{{ $data = merge $data (dict "year" .) }}{{ end -}}
+{{- with .Get "class" }}{{ $data = merge $data (dict "class" .) }}{{ end -}}
+
+{{- if .Inner -}}
+  {{- $inner := .Inner | transform.Unmarshal -}}
+  {{- $data = merge $data $inner -}}
+{{- end -}}
+
+{{- partial "sponsor-section.html" (dict "data" $data) -}}

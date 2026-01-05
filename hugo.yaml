@@ -149,7 +149,7 @@ menu:
       url: community-partners
       weight: 2   
     - identifier: logos
-      name: Sherpasec Logos
+      name: Sherpasec Brand Assets
       url: logos
       weight: 3
   supported_ctfs_conferences:
@@ -196,7 +196,7 @@ menu:
       url: community-partners/
       weight: 5
     - identifier: logos
-      name: Sherpasec Logos
+      name: Sherpasec Brand Assets
       url: logos/
       weight: 6
     - identifier: supported-ctfs

@@ -1,0 +1,23 @@
+{{/*
+  Shortcode for statistics grid in markdown files
+
+  Usage in markdown:
+  {{< stats-grid title="Quick Statistics" >}}
+  stats:
+    - value: "120"
+      label: "participants registered in 16 hours"
+    - value: "100%"
+      label: "show rate"
+  {{< /stats-grid >}}
+*/}}
+
+{{- $data := dict -}}
+{{- with .Get "title" }}{{ $data = merge $data (dict "title" .) }}{{ end -}}
+{{- with .Get "class" }}{{ $data = merge $data (dict "class" .) }}{{ end -}}
+
+{{- if .Inner -}}
+  {{- $inner := .Inner | transform.Unmarshal -}}
+  {{- $data = merge $data $inner -}}
+{{- end -}}
+
+{{- partial "stats-grid.html" (dict "data" $data) -}}

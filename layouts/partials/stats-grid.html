@@ -1,0 +1,34 @@
+{{/*
+  Reusable statistics grid component
+
+  Usage:
+  {{ partial "stats-grid.html" (dict "context" . "data" $statsData) }}
+
+  Where $statsData structure:
+  {
+    "title": "Quick Statistics",
+    "class": "optional-custom-class",
+    "stats": [
+      {"value": "120", "label": "participants registered"},
+      {"value": "100%", "label": "show rate"}
+    ]
+  }
+*/}}
+
+{{- $data := .data -}}
+{{- $title := $data.title | default "" -}}
+{{- $class := $data.class | default "" -}}
+
+<section aria-label="{{ $title }}" class="mx-auto max-w-4xl my-8 p-1 rounded-lg bg-transparent {{ $class }}">
+    {{ if $title }}
+    <h2 class="text-center text-white text-2xl font-bold mb-4">{{ $title }}</h2>
+    {{ end }}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ range $data.stats }}
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-8 text-center bg-transparent">
+            <div class="text-3xl md:text-4xl font-extrabold text-white">{{ .value }}</div>
+            <div class="mt-2 text-sm text-neutral-300">{{ .label }}</div>
+        </div>
+        {{ end }}
+    </div>
+</section>

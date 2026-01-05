@@ -1,0 +1,27 @@
+{{/*
+  Shortcode for winners section in markdown files
+
+  Usage in markdown:
+  {{< winners-section title="Open Category Winners" >}}
+  ctf_winners:
+    - rank: "1"
+      team: "M53_TEABAG"
+    - rank: "2"
+      team: "CYRUSNISM"
+  special_awards:
+    - title: "Best Presenter (Professional)"
+      team: "CTRL+SHIFT+HACKERS"
+    - title: "Best Presenter (Creative)"
+      team: "M53_TEABAG"
+  {{< /winners-section >}}
+*/}}
+
+{{- $data := dict -}}
+{{- with .Get "title" }}{{ $data = merge $data (dict "title" .) }}{{ end -}}
+
+{{- if .Inner -}}
+  {{- $inner := .Inner | transform.Unmarshal -}}
+  {{- $data = merge $data $inner -}}
+{{- end -}}
+
+{{- partial "winners-section.html" (dict "data" $data) -}}

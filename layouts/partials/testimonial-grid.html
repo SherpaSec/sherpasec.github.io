@@ -1,0 +1,32 @@
+{{/*
+  Reusable testimonial/quote grid component
+
+  Usage:
+  {{ partial "testimonial-grid.html" (dict "context" . "data" $testimonialData) }}
+
+  Where $testimonialData structure:
+  {
+    "title": "Player Testimonies",
+    "testimonials": [
+      {"text": "Quote text here..."},
+      {"text": "Another quote..."}
+    ]
+  }
+*/}}
+
+{{- $data := .data -}}
+{{- $title := $data.title | default "" -}}
+
+<section aria-label="{{ $title }}" class="mx-auto max-w-4xl my-8 p-1">
+    {{ if $title }}
+    <h2 class="text-center text-white text-2xl font-bold mb-4">{{ $title }}</h2>
+    {{ end }}
+    <div class="flex flex-col gap-6">
+        {{ range $data.testimonials }}
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+            <span class="text-4xl text-white">"</span>
+            <div class="text-neutral-300">{{ .text }}</div>
+        </div>
+        {{ end }}
+    </div>
+</section>

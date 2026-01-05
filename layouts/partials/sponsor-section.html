@@ -1,0 +1,67 @@
+{{/*
+  Reusable sponsor section component
+
+  Usage in markdown:
+  {{< sponsor-section
+    title="Our Sponsors"
+    platinum='[{"name": "Div0", "image": "/images/sherpactf/div0_white.png"}]'
+    gold='[{"name": "ArmourZero", "image": "/images/sherpactf/ArmourZero_White.png"}]'
+  >}}
+
+  Or in templates:
+  {{ partial "sponsor-section.html" (dict "context" . "data" $sponsorData) }}
+*/}}
+
+{{- $data := .data -}}
+{{- $title := $data.title | default "Our Sponsors" -}}
+
+<section aria-label="Sponsors" class="mx-auto max-w-4xl my-12 p-1 {{ $data.class }}">
+    {{ if $title }}
+    <h2 class="text-center text-white text-2xl font-bold mb-4">{{ $title }}</h2>
+    {{ end }}
+
+    {{ if $data.venue }}
+    <h3 class="text-center text-white font-medium my-4">Venue Sponsor</h3>
+    <div class="fcc sponsors-{{ $data.year | default "2024" }} venue-sponsor">
+        {{ range $data.venue }}
+        <img src="{{ .image }}" alt="{{ .name }}" />
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $data.platinum }}
+    <h3 class="text-center text-white font-medium my-4">Platinum Sponsors</h3>
+    <div class="fcc sponsors-{{ $data.year | default "2024" }} platinum-sponsors">
+        {{ range $data.platinum }}
+        <img src="{{ .image }}" alt="{{ .name }}" {{ with .class }}class="{{ . }}"{{ end }} />
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $data.gold }}
+    <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
+    <div class="fcc sponsors-{{ $data.year | default "2024" }} gold-sponsors">
+        {{ range $data.gold }}
+        <img src="{{ .image }}" alt="{{ .name }}" />
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $data.bronze }}
+    <h3 class="text-center text-white font-medium my-4">Bronze Sponsors</h3>
+    <div class="fcc sponsors-{{ $data.year | default "2024" }} bronze-sponsors">
+        {{ range $data.bronze }}
+        <img src="{{ .image }}" alt="{{ .name }}" />
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $data.bik }}
+    <h3 class="text-center text-white font-medium my-4">Benefit-in-Kind</h3>
+    <div class="fcc sponsors-{{ $data.year | default "2024" }} bik-sponsors">
+        {{ range $data.bik }}
+        <img src="{{ .image }}" alt="{{ .name }}" />
+        {{ end }}
+    </div>
+    {{ end }}
+</section>

@@ -7,4 +7,8 @@ description: Call for Venue Form
 tags: Contact
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPl05En0D5eNOXZf68cgHQxhmlcrSvOAIzI9JAU6BnK3EiQg/viewform?embedded=true" width="640" height="1863" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPl05En0D5eNOXZf68cgHQxhmlcrSvOAIzI9JAU6BnK3EiQg/viewform?embedded=true" width="640" height="1863" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+<script type="text/javascript">
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfPl05En0D5eNOXZf68cgHQxhmlcrSvOAIzI9JAU6BnK3EiQg/viewform";
+</script>

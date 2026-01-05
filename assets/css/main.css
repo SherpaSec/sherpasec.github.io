@@ -302,9 +302,37 @@ article header h1 {
     margin: 1rem 1.25rem !important;
 }
 
+.supported-ctf-title {
+    margin: 0.5rem 0 1rem 0 !important;
+}
+
+.timeline-inner {
+    padding: 0 !important;
+}
+
+.timeline-inner > div {
+    padding-right: 0 !important;
+}
+
+.supported-ctf-blogs > a, .supported-ctf-title > a {
+    text-decoration: none !important;
+}
+
+.sherpasec-brand-text {
+    margin: 1rem 0 !important;
+}
+
+.sherpasec-logo-text {
+    margin: 0 !important;
+}
+
+.sherpa-download-logo {
+    text-decoration: none !important;
+}
+
 @media (max-width: 1080px) {
     .testimonials-container {
-        width: 70vw;
+        width: 65vw;
     }
 
     .sponsors-2025.platinum-sponsors img.div0 , .sponsors-2025.bik-sponsors img {
@@ -355,7 +383,7 @@ article header h1 {
     }
 
     .testimonials-container {
-        width: 100vw;
+        width: 80vw;
     }
 
     .sponsors-2025.platinum-sponsors img, .sponsors-2025.bronze-sponsors img {

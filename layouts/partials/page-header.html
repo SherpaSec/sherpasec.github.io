@@ -1,0 +1,15 @@
+{{/*
+  Reusable page header with particles.js background
+
+  Usage:
+  {{ partial "page-header.html" (dict "title" .Title) }}
+*/}}
+
+<header class="relative mb-4 bg-primary-800">
+    <div id="particles-js" class="absolute inset-0"></div>
+    <span class="py-96">
+        <h1 class="{{ with .class }}{{ . }}{{ else }}text-5xl{{ end }} font-black text-center text-white capitalize">
+            {{ .title }}
+        </h1>
+    </span>
+</header>

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SherpaCTF on SherpaSec</title><link>https://sherpasec.org/tags/sherpactf/</link><description>Recent content in SherpaCTF on SherpaSec</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 02:03:52 +0800</lastBuildDate><atom:link href="https://sherpasec.org/tags/sherpactf/index.xml" rel="self" type="application/rss+xml"/><item><title>SherpaCTF 2024 - Recap</title><link>https://sherpasec.org/posts/sherpactf24-recap/</link><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate><guid>https://sherpasec.org/posts/sherpactf24-recap/</guid><description>SherpaCTF 2024 was a 24-hour Jeopardy-style CTF with a Hackathon twist, held at Dell Global Business Center in Cyberjaya, Malaysia. It brought together cybersecurity professionals and students to solve challenges and present their solutions to industry veterans.</description></item><item><title>SherpaCTF 2025</title><link>https://sherpasec.org/posts/sherpactf25/</link><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate><guid>https://sherpasec.org/posts/sherpactf25/</guid><description>❗Word is out, SherpaCTF 2025 is in the works! That’s right, after an incredible SherpaCTF 2024 we’re back this year with SherpaCTF 2025 and this time, we’re proud to partner up with 🚀 Parallel Pulse. Keep an eye out for updates. You wouldn’t want to miss this 🕶️</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SherpaCTF on SherpaSec</title>
+    <link>http://localhost:1313/tags/sherpactf/</link>
+    <description>Recent content in SherpaCTF on SherpaSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jan 2026 19:42:58 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sherpactf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SherpaCTF 2024 - Recap</title>
+      <link>http://localhost:1313/posts/sherpactf24-recap/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sherpactf24-recap/</guid>
+      <description>SherpaCTF 2024 was a 24-hour Jeopardy-style CTF with a Hackathon twist, held at Dell Global Business Center in Cyberjaya, Malaysia. It brought together cybersecurity professionals and students to solve challenges and present their solutions to industry veterans.</description>
+    </item>
+    <item>
+      <title>SherpaCTF 2025</title>
+      <link>http://localhost:1313/posts/sherpactf25/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sherpactf25/</guid>
+      <description>❗Word is out, SherpaCTF 2025 is in the works! That’s right, after an incredible SherpaCTF 2024 we’re back this year with SherpaCTF 2025 and this time, we’re proud to partner up with 🚀 Parallel Pulse. Keep an eye out for updates. You wouldn’t want to miss this 🕶️</description>
+    </item>
+  </channel>
+</rss>

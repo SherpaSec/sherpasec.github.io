@@ -1,0 +1,20 @@
+{{/*
+  Shortcode for testimonial grid in markdown files
+
+  Usage in markdown:
+  {{< testimonial-grid title="Player Testimonies" >}}
+  testimonials:
+    - text: "It is my first time joining physical CTF + presentation and still the best CTF for me."
+    - text: "The collaborative spirit and knowledge sharing during the presentations added immense value."
+  {{< /testimonial-grid >}}
+*/}}
+
+{{- $data := dict -}}
+{{- with .Get "title" }}{{ $data = merge $data (dict "title" .) }}{{ end -}}
+
+{{- if .Inner -}}
+  {{- $inner := .Inner | transform.Unmarshal -}}
+  {{- $data = merge $data $inner -}}
+{{- end -}}
+
+{{- partial "testimonial-grid.html" (dict "data" $data) -}}

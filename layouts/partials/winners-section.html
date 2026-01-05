@@ -1,0 +1,64 @@
+{{/*
+  Reusable winners section component
+
+  Usage:
+  {{ partial "winners-section.html" (dict "context" . "data" $winnersData) }}
+
+  Where $winnersData structure:
+  {
+    "title": "Open Category Winners",
+    "ctf_winners": [
+      {"rank": "1", "team": "M53_TEABAG"},
+      {"rank": "2", "team": "CYRUSNISM"}
+    ],
+    "special_awards": [
+      {"title": "Best Presenter (Professional)", "team": "CTRL+SHIFT+HACKERS"},
+      {"title": "Best Presenter (Creative)", "team": "M53_TEABAG"}
+    ]
+  }
+*/}}
+
+{{- $data := .data -}}
+{{- $title := $data.title | default "" -}}
+
+<section aria-label="{{ $title }}" class="mx-auto max-w-4xl my-12 p-1">
+{{ if $title }}
+<h2 class="text-center text-white text-2xl font-bold mb-4">{{ $title }}</h2>
+{{ end }}
+
+{{ if $data.ctf_winners }}
+<h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
+<div class="flex flex-col gap-4 mb-8">
+    {{ range $data.ctf_winners }}
+    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">{{ .rank }} <span class="mx-4 font-semibold">{{ .team }}</span></div>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if $data.special_awards }}
+{{- $awards := $data.special_awards -}}
+{{- $half := div (len $awards) 2 -}}
+{{- $firstHalf := first $half $awards -}}
+{{- $secondHalf := after $half $awards -}}
+
+<div class="flex flex-col md:flex-row md:gap-6 gap-6">
+    {{ range $firstHalf }}
+    <div class="flex-1">
+        <h3 class="text-white text-sm font-semibold mb-4 text-center">{{ .title }}</h3>
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">{{ .team }}</div>
+    </div>
+    {{ end }}
+</div>
+
+{{ if $secondHalf }}
+<div class="flex flex-col md:flex-row md:gap-6 gap-6 mt-6">
+    {{ range $secondHalf }}
+    <div class="flex-1">
+        <h3 class="text-white text-sm font-semibold mb-4 text-center">{{ .title }}</h3>
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">{{ .team }}</div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
+</section>

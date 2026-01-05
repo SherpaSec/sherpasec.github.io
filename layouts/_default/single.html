@@ -1,20 +1,7 @@
 {{define "main"}}
 <article>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js', '/particlesjs-config.json', function () {
-      console.log('callback - particles.js config loaded');
-    });
-  </script>
-
-  <header class="relative mb-4 bg-primary-800">
-    <div id="particles-js" class="absolute inset-0"></div>
-    <span class="py-96">
-      <h1 class="text-5xl font-black text-center text-white capitalize">
-        {{ .Title }}
-      </h1>
-    </span>
-  </header>
+  {{ partial "particles-js.html" }}
+  {{ partial "page-header.html" (dict "title" .Title "class" "text-5xl") }}
 
   <div class="content fcc">
     {{ with .Params.featured_image }}

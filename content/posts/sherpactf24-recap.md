@@ -94,65 +94,121 @@ We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZ
 </section>
 
 <section aria-label="Open category winners" class="mx-auto max-w-4xl my-12 p-1">
-<h2 class="text-center text-white text-2xl font-bold mb-4">Open Category Winners</h2>
-<h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
-<div class="flex flex-col gap-4 mb-8">
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">1 <span class="mx-4 font-semibold">M53_TEABAG</span></div>
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">2 <span class="mx-4 font-semibold">CYRUSNISM</span></div>
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">3 <span class="mx-4 font-semibold">CTRL+SHIFT+HACKERS</span></div>
-</div>
+  <h2 class="text-center text-white text-2xl font-bold mb-4">Open Category Winners</h2>
+  <h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
 
-<div class="flex flex-col md:flex-row md:gap-6 gap-6">
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Professional)</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CTRL+SHIFT+HACKERS</div>
+  <!-- Top 3 Podium -->
+  <div class="mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-end mb-8 mt-12">
+      <!-- 2nd Place -->
+      <div class="order-2 md:order-1">
+        <div class="rounded-lg border-3 border-gray-400 p-6 text-center bg-gradient-to-br from-gray-600/10 to-gray-800/10 shadow-lg transform hover:scale-105 transition-transform">
+          <div class="font-bold text-white text-lg custom-wrapper">CYRUSNISM</div>
+          <div class="mt-3 pt-3 border-t border-gray-600">
+            <div class="text-gray-400 text-sm">Runner Up</div>
+          </div>
+        </div>
+      </div>
+      <!-- 1st Place (Champion) -->
+      <div class="order-1 md:order-2">
+        <div class="rounded-lg border-3 border-yellow-500 p-8 text-center bg-gradient-to-br from-yellow-600/20 to-amber-600/20 shadow-2xl transform md:scale-110 hover:scale-115 transition-transform">
+          <div class="font-bold text-white text-2xl mb-2 custom-wrapper">M53_TEABAG</div>
+          <div class="mt-4 pt-4 border-t border-yellow-600">
+            <div class="text-yellow-400 text-base font-semibold">1st Place</div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd Place -->
+      <div class="order-3 md:order-3">
+        <div class="rounded-lg border-3 border-amber-600 p-6 text-center bg-gradient-to-br from-amber-700/10 to-orange-800/10 shadow-lg transform hover:scale-105 transition-transform">
+          <div class="font-bold text-white text-lg custom-wrapper">CTRL+SHIFT+HACKERS</div>
+          <div class="mt-3 pt-3 border-t border-amber-700">
+            <div class="text-amber-500 text-sm">Runner Up</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Creative)</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">M53_TEABAG</div>
-    </div>
-</div>
+  </div>
 
-<div class="flex flex-col md:flex-row md:gap-6 gap-6 mt-6">
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presentation Materials</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CYRUSNISM</div>
+  <!-- Presentation Awards -->
+  <div class="mt-8">
+    <h3 class="text-center text-white text-lg font-semibold mb-4">Presentation Awards</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTER (PROFESSIONAL)</div>
+        <div class="font-semibold text-white text-center custom-wrapper">CTRL+SHIFT+HACKERS</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTER (CREATIVE)</div>
+        <div class="font-semibold text-white text-center custom-wrapper">M53_TEABAG</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTATION MATERIALS</div>
+        <div class="font-semibold text-white text-center custom-wrapper">CYRUSNISM</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST TECHNICAL PRESENTATION</div>
+        <div class="font-semibold text-white text-center custom-wrapper">UMBREON</div>
+      </div>
     </div>
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Technical Presentation</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">UMBREON</div>
-    </div>
-</div>
+  </div>
 </section>
-
 <section aria-label="Student category winners" class="mx-auto max-w-4xl my-12 p-1">
-<h2 class="text-center text-white text-2xl font-bold mb-4">Student Category Winners</h2>
-<h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
-<div class="flex flex-col gap-4 mb-8">
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">1 <span class="mx-4 font-semibold">SQUAD BUSTER</span></div>
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">2 <span class="mx-4 font-semibold">IDK</span></div>
-    <div class="rounded-lg border-2 border-[#0C7CBA] p-5 text-center bg-transparent">3 <span class="mx-4 font-semibold">N3K0_1N_B0X</span></div>
-</div>
+  <h2 class="text-center text-white text-2xl font-bold mb-4">Student Category Winners</h2>
+  <h3 class="text-center text-white text-sm font-semibold mb-6">CTF Winners</h3>
 
-<div class="flex flex-col md:flex-row md:gap-6 gap-6">
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Professional)</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">SQUAD BUSTER</div>
+  <!-- Top 3 Podium -->
+  <div class="mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-end mb-8 mt-12">
+      <!-- 2nd Place -->
+      <div class="order-2 md:order-1">
+        <div class="rounded-lg border-3 border-gray-400 p-6 text-center bg-gradient-to-br from-gray-600/10 to-gray-800/10 shadow-lg transform hover:scale-105 transition-transform">
+          <div class="font-bold text-white text-lg custom-wrapper">IDK</div>
+          <div class="mt-3 pt-3 border-t border-gray-600">
+            <div class="text-gray-400 text-sm">Runner Up</div>
+          </div>
+        </div>
+      </div>
+      <!-- 1st Place (Champion) -->
+      <div class="order-1 md:order-2">
+        <div class="rounded-lg border-3 border-yellow-500 p-8 text-center bg-gradient-to-br from-yellow-600/20 to-amber-600/20 shadow-2xl transform md:scale-110 hover:scale-115 transition-transform">
+          <div class="font-bold text-white text-2xl mb-2 custom-wrapper">SQUAD BUSTER</div>
+          <div class="mt-4 pt-4 border-t border-yellow-600">
+            <div class="text-yellow-400 text-base font-semibold">1st Place</div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd Place -->
+      <div class="order-3 md:order-3">
+        <div class="rounded-lg border-3 border-amber-600 p-6 text-center bg-gradient-to-br from-amber-700/10 to-orange-800/10 shadow-lg transform hover:scale-105 transition-transform">
+          <div class="font-bold text-white text-lg custom-wrapper">N3K0_1N_B0X</div>
+          <div class="mt-3 pt-3 border-t border-amber-700">
+            <div class="text-amber-500 text-sm">Runner Up</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presenter (Creative)</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">N3K0_1N_B0X</div>
+  </div>
+  <!-- Presentation Awards -->
+  <div class="mt-8">
+    <h3 class="text-center text-white text-lg font-semibold mb-4">Presentation Awards</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTER (PROFESSIONAL)</div>
+        <div class="font-semibold text-white text-center custom-wrapper">SQUAD BUSTER</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTER (CREATIVE)</div>
+        <div class="font-semibold text-white text-center custom-wrapper">N3K0_1N_B0X</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST PRESENTATION MATERIALS</div>
+        <div class="font-semibold text-white text-center custom-wrapper">CH33T4H</div>
+      </div>
+      <div class="rounded-lg border-2 border-[#0C7CBA] p-5 bg-transparent hover:bg-[#0C7CBA]/5 transition-colors">
+        <div class="text-[#0C7CBA] font-bold text-xs mb-2 text-center">BEST TECHNICAL PRESENTATION</div>
+        <div class="font-semibold text-white text-center custom-wrapper">IDK</div>
+      </div>
     </div>
-</div>
-
-<div class="flex flex-col md:flex-row md:gap-6 gap-6 mt-6">
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Presentation Materials</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">CH33T4H</div>
-    </div>
-    <div class="flex-1">
-        <h3 class="text-white text-sm font-semibold mb-4 text-center">Best Technical Presentation</h3>
-        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 text-center bg-transparent">IDK</div>
-    </div>
-</div>
+  </div>
 </section>

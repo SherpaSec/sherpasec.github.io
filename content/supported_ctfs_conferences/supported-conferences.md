@@ -215,7 +215,7 @@ categories: supported_ctfs_conferences
     <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
       <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
         <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-        <span>SherpaSec supported STANDCON 2025, with our team member Roheender Sahota giving a talk on AI agent for smart contract security. <a href="https://www.linkedin.com/posts/roheender-sahota_standcon2025-ai-smartcontractsecurity-activity-7306219458501521408-arsa/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Read more about the talk</a>.</span>
+        <span>SherpaSec supported STANDCON 2025, with our community member Roheender Sahota giving a talk on AI agent for smart contract security. <a href="https://www.linkedin.com/posts/roheender-sahota_standcon2025-ai-smartcontractsecurity-activity-7306219458501521408-arsa/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Read more about the talk</a>.</span>
       </p>
     </div>
   </div>

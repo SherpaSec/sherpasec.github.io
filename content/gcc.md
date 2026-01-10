@@ -177,5 +177,19 @@ SherpaSec has proudly supported and sponsored the GCC event from 2020 through to
     </div>
   </div>
 
+ <!-- 2020 -->
+  <div class="year-container relative p-6 mb-8 border-l-4 bg-gray-50 dark:bg-gray-800 rounded-lg border-primary-600 shadow-md hover:shadow-xl transition-all duration-300">
+    <a href="https://gcc.ac/archive/gcc_2020/"
+       class="year group inline-flex items-center gap-2 mb-4 text-3xl font-black text-primary-600 dark:text-primary-400 no-underline hover:no-underline hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded">
+      2020
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+    </a>
+    <div class="w-full max-w-full overflow-x-auto overflow-y-hidden">
+      <div class="grid grid-flow-col auto-cols-[200px] gap-3 min-w-max pr-2">
+        <div class="testimonial w-[200px] min-h-[80px] p-2 bg-white rounded-lg shadow-sm dark:bg-gray-700"><p class="font-semibold text-gray-900 dark:text-white">Mohin</p></div>
+      </div>
+    </div>
+  </div>
+
 </div>
 </div>

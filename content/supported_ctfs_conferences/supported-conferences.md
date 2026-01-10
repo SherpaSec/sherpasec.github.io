@@ -68,6 +68,12 @@ categories: supported_ctfs_conferences
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
       MY Hack is an offensive-research focused conference organized by Casaba Security that brings together cybersecurity professionals, researchers, and enthusiasts for an in-depth exploration of modern attack techniques, threat research, and emerging defence strategies. The event features expert presentations, live demonstrations, and an interactive Malware Village, creating a unique platform for knowledge-sharing and collaboration within the offensive security community. SherpaSec was honored to support MY Hack and contribute to strengthening the cybersecurity ecosystem.
     </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec hosted a booth at MY Hack 2025 and sponsored 4 tickets, helping community members learn about offensive security research and meet industry experts.</span>
+      </p>
+    </div>
   </div>
 </article>
 
@@ -90,6 +96,12 @@ categories: supported_ctfs_conferences
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
       Parallel Pulse @ NanoSec is Malaysia's defensive-security conference that brings together frontline researchers and practitioners focused on improving how we prevent, detect, respond, and recover in cybersecurity. The organisers are looking for original talks and demos in areas like threat hunting, incident response & forensics, SOC and AI, cloud/infrastructure defense, open-source defense tools, cyber law, risk models, and even experimental or unconventional work. SherpaSec is honoured to support Pulse and looks forward to seeing fresh ideas from defenders shaping the future of security.
     </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec sponsored 7 tickets to Parallel Pulse 2025 and hosted <a href="/posts/sherpactf25-recap/" class="text-primary-600 dark:text-primary-400 hover:underline">SherpaCTF 2025</a>, a 6-hour Battle Royale-style CTF competition held alongside the conference. The CTF featured an elimination-based format with physical challenges like lockpicking.</span>
+      </p>
+    </div>
   </div>
 </article>
 
@@ -112,6 +124,12 @@ categories: supported_ctfs_conferences
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
       AVAR 2025 gathers cyber security professionals, threat researchers, and cyber defense leaders from around the world under the theme of 'Shifting Power In Cyber Defense.' The conference's objective is to improve cyber security awareness and personal interaction among critical stakeholders to catalyze international cooperation against cyber attacks. AVAR 2025 is Asia's most impactful cyber security conference, combining training, research presentations, leader-focused panel discussions, CISO workshop, and opportunities to network with solution creators. AVAR 2025 features 350+ delegates and 50+ speakers, and recognizes pathbreaking cyber security leaders by presenting Best CISO Awards in 5 categories.
     </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec sponsored 5 tickets to AVAR 2025, helping cybersecurity professionals attend Asia's premier gathering of threat researchers and defense leaders to advance international cooperation in cyber defense.</span>
+      </p>
+    </div>
   </div>
 </article>
 
@@ -143,7 +161,7 @@ categories: supported_ctfs_conferences
     <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
       <p class="mb-3 text-sm font-medium text-primary-700 dark:text-primary-400">
         <svg class="inline w-5 h-5 mr-1 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-        SherpaSec was honored to support several candidates in attending <a href="https://www.infosec-city.com/sin-25" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">SINCON 2025</a>. Below are their blogs sharing their experiences:
+        SherpaSec was honored to support several candidates in attending <a href="https://www.infosec-city.com/sin-25" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">SINCON 2025</a> and SINCON 2024. Below are their blogs sharing their experiences:
       </p>
       <div class="flex flex-wrap gap-2 supported-ctf-blogs">
         <a href="https://www.linkedin.com/posts/meiyunsow_sincon25-activity-7332762525274456064-RByv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6vt8MBWvm3rlmNLhlYQoQrh6fjDgq1tw0" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white transition-colors rounded-md bg-primary-600 hover:bg-primary-700">
@@ -194,6 +212,12 @@ categories: supported_ctfs_conferences
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
       STANDCON is a cybersecurity community conference organised by N0H4TS X STANDCON that aims to bring together students and professionals in Singapore to build expertise and share knowledge. The event includes talks across domains like red teaming and blue teaming, hands-on workshops, student project showcases, and networking opportunities. Highlights include themed "villages" (e.g. Malware Village, Lock-Picking Village, Flipper Zero Village), an Activities Corner featuring emerging topics like Web3 & AI, and chances to engage directly with peers and experts. SherpaSec was honored to support STANDCON and be part of powering this vibrant space for growing cybersecurity talent.
     </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec supported STANDCON 2025, with our team member Roheender Sahota giving a talk on AI and smart contract security. <a href="https://www.linkedin.com/posts/roheender-sahota_standcon2025-ai-smartcontractsecurity-activity-7306219458501521408-arsa/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Read more about the talk</a>.</span>
+      </p>
+    </div>
   </div>
 </article>
 
@@ -346,7 +370,14 @@ categories: supported_ctfs_conferences
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
       TenguSec is a Tokyo-based educational and experimental hacking collective founded in 2022, dedicated to the democratization of knowledge and spreading hacker culture. They help learners get started with hacking, no matter their experience level—through resources, community meetups, CTF participation, and peer, driven experimentation. SherpaSec was honored to support TenguSec and its mission of growing open, inclusive hacker communities.
     </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec sponsored a ticket to TenguCon, helping a community member experience this outdoor hacker camp that mixes technical learning with nature. <a href="https://www.linkedin.com/posts/mikaelwecksten_this-summer-i-went-to-a-outdoors-hacker-camp-activity-7397865114290429952-1F5G/?rcm=ACoAAC0ozJEBvJDfeOs8qww5b8IshJBzK7Xs1TQ" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Read the attendee's experience</a>.</span>
+      </p>
+    </div>
   </div>
 </article>
+
 
 </div>

@@ -81,7 +81,7 @@ SherpaSec has proudly supported and sponsored the GCC event from 2020 through to
     <div class="w-full max-w-full overflow-x-auto overflow-y-hidden">
       <div class="grid grid-flow-col auto-cols-[200px] gap-3 min-w-max pr-2">
         <div class="testimonial w-[200px] min-h-[80px] p-2 bg-white rounded-lg shadow-sm dark:bg-gray-700">
-          <p class="font-semibold text-gray-900 dark:text-white">Danish</p>
+          <p class="font-semibold text-gray-900 dark:text-white">Danisy</p>
         </div>
         <a href="https://vicevirus.github.io/posts/gcc-2024/"
            class="testimonial block w-[200px] min-h-[80px] p-2 transition-all bg-white rounded-lg shadow-sm dark:bg-gray-700 hover:shadow-md hover:scale-105 no-underline hover:no-underline">

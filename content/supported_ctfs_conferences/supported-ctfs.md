@@ -111,4 +111,34 @@ categories: supported_ctfs_conferences
   </div>
 </article>
 
+<!-- ICC Tokyo 2025 -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl">
+  <div class="flex items-start justify-between mb-4">
+    <h2 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://icctokyo2025.nisc.go.jp/en/" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        ICC Tokyo 2025
+      <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h2>
+  </div>
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      The International Cybersecurity Challenge (ICC) is a global cybersecurity competition held in Tokyo, bringing together world-class teams from different countries to compete in Capture the Flag (CTF) challenges. Organized by Japan's National Cybersecurity Office, ICC Tokyo 2025 featured both Jeopardy-style and Attack & Defense rounds, testing participants' skills across web exploitation, cryptography, cloud security, AI challenges, and hardware hacking. The competition serves as a platform for international collaboration and knowledge exchange among top cybersecurity talents from around the world.
+    </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="mb-3 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="inline w-5 h-5 mr-1 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+        SherpaSec sponsored Hong Rui Yi to represent Malaysia as vice captain of the inaugural ASEAN Team at ICC Tokyo 2025. The team placed 6th overall competing against world-class teams.
+      </p>
+      <div class="flex flex-wrap gap-2 supported-ctf-blogs">
+        <a href="https://www.linkedin.com/posts/hong-rui-yi-7769092b9_icctokyo2025-internationalcybersecuritychallenge-activity-7399725893474119682-9ZHl" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white transition-colors rounded-md bg-primary-600 hover:bg-primary-700">
+          <span class="text-white">Hong Rui Yi's Post</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
+
 </div>

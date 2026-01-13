@@ -64,6 +64,28 @@ Special thanks to Parallel Pulse for having us at their excellent conference, an
     </div>
 </section>
 
+<section aria-label="Player testimonies" class="mx-auto max-w-4xl my-8 p-1">
+    <h2 class="text-center text-white text-2xl font-bold mb-4">Player Testimonies</h2>
+    <div class="flex flex-col gap-6">
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+            <span class="text-4xl text-white">“</span>
+            <div class="text-neutral-300">SherpaCTF is about drawing out the best from its participants, and this one was no exception! It was truly a breath of fresh air from the CTF meta that is AI-assisted solutions; it was a true competition of skills! From lock picking, to the dungeon RTA, and the main highlight being the series of offline challenges, not to mention the Parallel Pulse conference, at no point would you catch yourself idling!</div>
+        </div>
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+            <span class="text-4xl text-white">“</span>
+            <div class="text-neutral-300">The most fun individual CTF I've had the opportunity to join in 2025, an interesting concept of a battle royale style elimination which made the competition more thrilling. In addition to this, the absence of AI and the internet made the competition all the more difficult but fun nonetheless. 10/10 W CTF</div>
+        </div>
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+            <span class="text-4xl text-white">“</span>
+            <div class="text-neutral-300">A very fun to play CTF with an unique twist of it being fully offline. No internet nor AI? skill issue time it is it seems. Had a good time enjoying both the main CTF event and also the side quests that happened after getting eliminated, and honestly, no one left feeling bored.</div>
+        </div>
+        <div class="rounded-lg border-2 border-[#0C7CBA] p-6 bg-transparent flex gap-4 items-start">
+            <span class="text-4xl text-white">“</span>
+            <div class="text-neutral-300">SherpaCTF 2025 was a very interesting CTF because it had no internet and included physical challenges like lockpicking. The battle royale format made every round stressful and fun, and there was always something to do even after getting eliminated.</div>
+        </div>
+    </div>
+</section>
+
 <section aria-label="Main competition winners" class="mx-auto max-w-4xl my-12 p-1">
   <h2 class="text-center text-white text-2xl font-bold mb-4">CTF Winners</h2>
 

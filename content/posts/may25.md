@@ -3,11 +3,11 @@ title: "OWASP Meetup - May 2025"
 date: 2025-05-28
 draft: false
 language: en
-featured_image: ../assets/images/featured/owasp_may25.jpg
+featured_image: /images/featured/owasp_may25.jpg
 summary: 'SherpaSec is teaming up with OWASP Malaysia for a May meet-up featuring expert talks from F5 and Kaspersky on AI Security and the 2025 OWASP Top 10 for LLM Applications'
 description: 'SherpaSec is teaming up with OWASP Malaysia for a May meet-up featuring expert talks from F5 and Kaspersky on AI Security and the 2025 OWASP Top 10 for LLM Applications'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags:
     - Past Events

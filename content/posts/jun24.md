@@ -3,11 +3,11 @@ title: "Meetup - Jun 2024"
 date: 2024-06-20
 draft: false
 language: en
-featured_image: ../assets/images/featured/jun24.png
+featured_image: /images/featured/jun24.png
 summary: 'Local cybersecurity meetup featured two standout speakers: a Senior Analyst from Sunway Group, who shared insights into offensive and defensive security teams, and a Computer Networking and Security student, who provided a comprehensive guide to security operations centers'
 description: 'Local cybersecurity meetup featured two standout speakers: a Senior Analyst from Sunway Group, who shared insights into offensive and defensive security teams, and a Computer Networking and Security student, who provided a comprehensive guide to security operations centers'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

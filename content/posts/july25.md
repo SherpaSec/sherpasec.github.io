@@ -3,11 +3,11 @@ title: "Meetup - July 2025"
 date: 2025-05-28
 draft: false
 language: en
-featured_image: ../assets/images/featured/july25.jpg
+featured_image: /images/featured/july25.jpg
 summary: 'Local cybersecurity meetup featured three standout speakers: a Solutions Architect from Kaspersky exploring agentic AI in modern security frameworks, the Head of Cybersecurity Education at Kaspersky addressing workforce challenges in the industry, and a threat hunter from Bank Negara Malaysia presenting on the malicious use of native tools in cyber attacks'
 description: 'Local cybersecurity meetup featured three standout speakers: a Solutions Architect from Kaspersky exploring agentic AI in modern security frameworks, the Head of Cybersecurity Education at Kaspersky addressing workforce challenges in the industry, and a threat hunter from Bank Negara Malaysia presenting on the malicious use of native tools in cyber attacks'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags:
     - Past Events

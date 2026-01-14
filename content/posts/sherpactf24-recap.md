@@ -3,11 +3,11 @@ title: "SherpaCTF 2024 - Recap"
 date: 2024-12-12
 draft: false
 language: en
-featured_image: ../assets/images/featured/sherpactf24-featured.tif
+featured_image: /images/featured/sherpactf24-featured.tif
 summary: 'SherpaCTF 2024 was a 24-hour Jeopardy-style CTF with a Hackathon twist, held at Dell Global Business Center in Cyberjaya, Malaysia. It brought together cybersecurity professionals and students to solve challenges and present their solutions to industry veterans.'
 description: 'SherpaCTF 2024 was a 24-hour Jeopardy-style CTF with a Hackathon twist, held at Dell Global Business Center in Cyberjaya, Malaysia. It brought together cybersecurity professionals and students to solve challenges and present their solutions to industry veterans.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags:
     - Past Events

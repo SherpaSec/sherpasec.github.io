@@ -3,11 +3,11 @@ title: "Meetup - Mar 2024"
 date: 2024-03-08
 draft: false
 language: en
-featured_image: ../assets/images/featured/mar24.jpg
+featured_image: /images/featured/mar24.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a seasoned industry veteran with extensive experience in talent hunting and human resources and an university student specializing in forensics'
 description: 'Local cybersecurity meetup featured two standout speakers: a seasoned industry veteran with extensive experience in talent hunting and human resources and an university student specializing in forensics'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

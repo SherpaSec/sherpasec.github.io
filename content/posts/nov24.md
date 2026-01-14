@@ -3,11 +3,11 @@ title: "Meetup - Nov 2024"
 date: 2024-11-14
 draft: false
 language: en
-featured_image: ../assets/images/featured/nov24.png
+featured_image: /images/featured/nov24.png
 summary: 'Local cybersecurity meetup featured two insightful talks: one by an experienced professional exploring the contrast between pentesting and red teaming, and another by a student reflecting on lessons learned through web CTF challenges.'
 description: 'Local cybersecurity meetup featured two insightful talks: one by an experienced professional exploring the contrast between pentesting and red teaming, and another by a student reflecting on lessons learned through web CTF challenges.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

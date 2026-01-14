@@ -3,11 +3,11 @@ title: "Meetup - Apr 2025"
 date: 2025-04-18
 draft: false
 language: en
-featured_image: ../assets/images/featured/apr25.png
+featured_image: /images/featured/apr25.png
 summary: 'Local cybersecurity meetup featured two malware specialists: a Kaspersky researcher presenting threat intelligence workflows, and a junior analyst from WithSecure sharing technical findings on a stealthy browser stealer.'
 description: 'Local cybersecurity meetup featured two malware specialists: a Kaspersky researcher presenting threat intelligence workflows, and a junior analyst from WithSecure sharing technical findings on a stealthy browser stealer.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

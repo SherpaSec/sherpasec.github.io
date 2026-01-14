@@ -2,11 +2,11 @@
 title: "Meetup - October 2024"
 date: 2024-10-10
 language: en
-featured_image: ../assets/images/featured/oct24.png
+featured_image: /images/featured/oct24.png
 summary: 'Local cybersecurity meetup featured two standout speakers: the first provided insights into web pentesting, while the second discussed the complexities of DNS proxies in cybersecurity'
 description: 'Local cybersecurity meetup featured two standout speakers: the first provided insights into web pentesting, while the second discussed the complexities of DNS proxies in cybersecurity'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

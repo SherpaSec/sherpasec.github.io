@@ -3,11 +3,11 @@ title: "Meetup - Aug 2023"
 date: 2023-08-03
 draft: false
 language: en
-featured_image: ../assets/images/featured/aug23.jpg
+featured_image: /images/featured/aug23.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a university student specializing in cybersecurity and a seasoned industry veteran with extensive experience in the field'
 description: 'Local cybersecurity meetup featured two standout speakers: a university student specializing in cybersecurity and a seasoned industry veteran with extensive experience in the field'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

@@ -3,11 +3,11 @@ title: "Meetup - May 2024"
 date: 2024-05-18
 draft: false
 language: en
-featured_image: ../assets/images/featured/may24.jpg
+featured_image: /images/featured/may24.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a professional focused in Antivirus Engine and a talented Cybersecurity student focused in offensive security'
 description: 'Local cybersecurity meetup featured two standout speakers: a professional focused in Antivirus Engine and a talented Cybersecurity student focused in offensive security'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

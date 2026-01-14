@@ -3,11 +3,11 @@ title: "Meetup - Apr 2024"
 date: 2024-04-30
 draft: false
 language: en
-featured_image: ../assets/images/featured/apr24.jpg
+featured_image: /images/featured/apr24.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: an esteemed senior lecturer specializing in Cyberlaw, legal education, and the law of contract and a talented Cybersecurity student focused in offensive security with a keen interest in the technology and law'
 description: 'Local cybersecurity meetup featured two standout speakers: an esteemed senior lecturer specializing in Cyberlaw, legal education, and the law of contract and a talented Cybersecurity student focused in offensive security with a keen interest in the technology and law'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

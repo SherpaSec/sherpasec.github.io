@@ -2,11 +2,11 @@
 title: "Meetup - September 2024"
 date: 2024-09-19
 language: en
-featured_image: ../assets/images/featured/sep24.JPG
+featured_image: /images/featured/sep24.JPG
 summary: 'Local cybersecurity meetup featured two standout speakers: the first discussed cybersecurity innovation through peer learning, while the second highlighted the thrill of CTF Pwn challenges.'
 description: 'Local cybersecurity meetup featured two standout speakers: the first discussed cybersecurity innovation through peer learning, while the second highlighted the thrill of CTF Pwn challenges.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

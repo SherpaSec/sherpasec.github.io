@@ -3,11 +3,11 @@ title: "Meetup - Jan 2024"
 date: 2024-01-18
 draft: false
 language: en
-featured_image: ../assets/images/featured/jan24.jpg
+featured_image: /images/featured/jan24.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a seasoned reverse engineer deeply passionate about reverse engineering and low-level development, and a talented student eager to share insights and perspectives'
 description: 'Local cybersecurity meetup featured two standout speakers: a seasoned reverse engineer deeply passionate about reverse engineering and low-level development, and a talented student eager to share insights and perspectives'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

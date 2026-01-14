@@ -3,11 +3,11 @@ title: "Meetup - Sept 2025"
 date: 2025-09-18
 draft: false
 language: en
-featured_image: ../assets/images/featured/sept25.jpg
+featured_image: /images/featured/sept25.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a threat intelligence professional from Nexagate sharing practical frameworks for building effective CTI programs, and a student speaker offering an honest and inspiring reflection on starting a journey into Capture The Flag (CTF) competitions.'
 description: 'Local cybersecurity meetup featured two standout speakers: a threat intelligence professional from Nexagate sharing practical frameworks for building effective CTI programs, and a student speaker offering an honest and inspiring reflection on starting a journey into Capture The Flag (CTF) competitions.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

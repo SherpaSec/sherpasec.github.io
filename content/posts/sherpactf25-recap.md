@@ -3,11 +3,11 @@ title: "SherpaCTF 2025 - Recap"
 date: 2025-01-25
 draft: false
 language: en
-featured_image: ../assets/images/featured/sherpasec-ctf-25.jpg
+featured_image: /images/featured/sherpasec-ctf-25.jpg
 summary: 'SherpaCTF 2025 was an innovative 6-hour Battle Royale-style CTF held alongside the Parallel Pulse conference in Malaysia. This groundbreaking event introduced a new competitive format and featured physical challenges including lockpicking, bringing together cybersecurity enthusiasts for an unforgettable experience.'
 description: 'SherpaCTF 2025 was an innovative 6-hour Battle Royale-style CTF held alongside the Parallel Pulse conference in Malaysia. This groundbreaking event introduced a new competitive format and featured physical challenges including lockpicking, bringing together cybersecurity enthusiasts for an unforgettable experience.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags:
     - Past Events

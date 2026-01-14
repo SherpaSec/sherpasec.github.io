@@ -3,11 +3,11 @@ title: "Meetup - Nov 2023"
 date: 2023-11-16
 draft: false
 language: en
-featured_image: ../assets/images/featured/nov23.jpg
+featured_image: /images/featured/nov23.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: a fresh graduate passionate about reverse engineering and a seasoned veteran with 13 years of experience'
 description: 'Local cybersecurity meetup featured two standout speakers: a fresh graduate passionate about reverse engineering and a seasoned veteran with 13 years of experience'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

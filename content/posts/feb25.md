@@ -3,11 +3,11 @@ title: "Meetup - Feb 2025"
 date: 2025-02-20
 draft: false
 language: en
-featured_image: ../assets/images/featured/feb25.jpg
+featured_image: /images/featured/feb25.jpg
 summary: 'Local cybersecurity meetup featured two engaging speakers: a professional consultant with hunting experiences in WordPress plugin security, and a passionate student exploring wireless security challenges in WPA2 Enterprise environments.'
 description: 'Local cybersecurity meetup featured two engaging speakers: a professional consultant with hunting experiences in WordPress plugin security, and a passionate student exploring wireless security challenges in WPA2 Enterprise environments.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

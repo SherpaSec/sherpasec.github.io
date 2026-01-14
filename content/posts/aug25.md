@@ -3,11 +3,11 @@ title: "Mini AD CTF - Aug 2025"
 date: 2025-08-28
 draft: false
 language: en
-featured_image: ../assets/images/featured/aug25.jpg
+featured_image: /images/featured/aug25.jpg
 summary: 'Local cybersecurity meetup featured a special CTF session in collaboration with Range Village, where participants tackled hands-on challenges focused on Active Directory security. Hosted at Asia Pacific University, the three-hour event tested skills in lateral movement, and defence evasion, providing a real-world learning experience for cybersecurity enthusiasts.'
 description: 'Local cybersecurity meetup featured a special CTF session in collaboration with Range Village, where participants tackled hands-on challenges focused on Active Directory security. Hosted at Asia Pacific University, the three-hour event tested skills in lateral movement, and defence evasion, providing a real-world learning experience for cybersecurity enthusiasts.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

@@ -3,11 +3,11 @@ title: "Sherpasec X Kaspersky Cyber Fest 2025"
 date: 2025-12-02
 draft: false
 language: en
-featured_image: ../assets/images/featured/dec25.jpg
+featured_image: /images/featured/dec25.jpg
 summary: 'Local cybersecurity meetup featured a special year-end edition in collaboration with Kaspersky: a hands-on incident response simulation led by a cybersecurity specialist, and technical workshops on AEAD and heap exploitation by returning alumni diving deep into offensive security techniques.'
 description: 'Local cybersecurity meetup featured a special year-end edition in collaboration with Kaspersky: a hands-on incident response simulation led by a cybersecurity specialist, and technical workshops on AEAD and heap exploitation by returning alumni diving deep into offensive security techniques.'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

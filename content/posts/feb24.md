@@ -3,11 +3,11 @@ title: "Meetup - Feb 2024"
 date: 2024-03-01
 draft: false
 language: en
-featured_image: ../assets/images/featured/feb24.jpg
+featured_image: /images/featured/feb24.jpg
 summary: 'Local cybersecurity meetup featured two standout speakers: an esteemed senior lecturer specializing in Cybersecurity, Blockchain, Energy Efficiency, Digital Healthcare, and Machine Learning and a talented Cybersecurity student'
 description: 'Local cybersecurity meetup featured two standout speakers: an esteemed senior lecturer specializing in Cybersecurity, Blockchain, Energy Efficiency, Digital Healthcare, and Machine Learning and a talented Cybersecurity student'
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events
 tags: Past Events
 ---

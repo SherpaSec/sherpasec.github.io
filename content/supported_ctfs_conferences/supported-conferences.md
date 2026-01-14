@@ -1,6 +1,6 @@
 ---
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 title: "SherpaSec Supported Conferences"
 summary: "SherpaSec supported conferences in the past."
 description: "SherpaSec supported conferences in the past."
@@ -32,9 +32,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/CyberDSA-2025.png" alt="CyberDSA" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/CyberDSA-2025.png" alt="CyberDSA" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -60,9 +58,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/MYHACK_25.png" alt="MY HACK" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/MYHACK_25.png" alt="MY HACK" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -88,9 +84,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/PARALLEL PULSE LOGO.png" alt="Parallel Pulse" class="w-full max-w-2xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/PARALLEL PULSE LOGO.png" alt="Parallel Pulse" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -116,9 +110,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/avar.jpg" alt="AVAR" class="w-full max-w-2xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/avar.jpg" alt="AVAR" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -150,9 +142,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/SINCON.png" alt="SINCON" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/SINCON.png" alt="SINCON" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -204,9 +194,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/standcon.png" alt="Standcon" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/standcon.png" alt="Standcon" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -238,9 +226,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/Wicked6.png" alt="Wicked6" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/Wicked6.png" alt="Wicked6" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -272,9 +258,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/OOTB.webp" alt="Out Of The Box" class="w-full max-w-md mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/OOTB.webp" alt="Out Of The Box" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -306,9 +290,8 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/C0C0N Logo.png" alt="c0c0n" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/C0C0N Logo.png" alt="c0c0n" >}}
+
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -334,9 +317,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/DEFCAMP.png" alt="DefCamp" class="w-full max-w-3xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/DEFCAMP.png" alt="DefCamp" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -362,9 +343,7 @@ categories: supported_ctfs_conferences
     </h3>
   </div>
 
-  <div class="mb-4">
-    <img src="/images/supported-conferences/TENGUSEC.png" alt="TenguSec" class="w-full max-w-xl mx-auto rounded-lg">
-  </div>
+  {{< conference-image src="supported-conferences/TENGUSEC.png" alt="TenguSec" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">

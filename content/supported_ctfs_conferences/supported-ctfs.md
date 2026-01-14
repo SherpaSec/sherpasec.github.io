@@ -1,7 +1,7 @@
 ---
 title: "SherpaSec Supported CTFs"
 author: SherpaSec
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+authorimage: /images/global/SherpaSec_Logo.png
 summary: "SherpaSec supported CTFs in the past."
 description: "SherpaSec supported CTFs in the past."
 categories: supported_ctfs_conferences

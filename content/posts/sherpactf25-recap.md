@@ -1,6 +1,6 @@
 ---
 title: "SherpaCTF 2025 - Recap"
-date: 2025-01-25
+date: 2025-11-25
 draft: false
 language: en
 featured_image: /images/featured/sherpasec-ctf-25.jpg

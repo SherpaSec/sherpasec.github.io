@@ -1,0 +1,6 @@
+{{- $src := resources.Get (printf "images/%s" (.Get "src")) -}}
+{{ if $src }}
+<div class="mb-4">
+  <img src="{{ $src.RelPermalink }}" alt="{{ .Get "alt" }}" class="{{ .Get "class" | default "w-full max-w-2xl mx-auto" }}">
+</div>
+{{ end }}

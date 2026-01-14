@@ -7,6 +7,8 @@ summary: Download official SherpaSec logos and branding materials for your proje
 description: Official SherpaSec logos and branding resources
 categories: Community Partners
 tags: Community Partners
+featured_image: /images/featured/SHERPASEC_BANNER.png
+authorimage: /images/global/SherpaSec_Logo.png
 ---
 
 <div class="grid gap-8 mb-8 md:grid-cols-2">
@@ -16,7 +18,7 @@ tags: Community Partners
       <p class="text-sm text-gray-600 dark:text-gray-400">Best for dark background</p>
     </div>
     <div class="flex items-center justify-center p-8 mb-4 bg-black rounded-lg">
-      <img src="/images/W_ SHERPASEC LOGO.png" alt="SherpaSec White Logo" class="w-full max-w-sm">
+      {{< sherpasec-brand-assets src="brand-assets/W_ SHERPASEC LOGO.png" alt="SherpaSec White Logo" class="w-full max-w-sm" >}}
     </div>
   </article>
 
@@ -26,7 +28,7 @@ tags: Community Partners
       <p class="text-sm text-gray-600 dark:text-gray-400">Best for light backgrounds</p>
     </div>
     <div class="flex items-center justify-center p-8 mb-4 bg-white rounded-lg">
-      <img src="/images/B_ SHERPASEC LOGO.png" alt="SherpaSec Dark Logo" class="w-full max-w-sm">
+      {{< sherpasec-brand-assets src="brand-assets/B_ SHERPASEC LOGO.png" alt="SherpaSec Dark Logo" class="w-full max-w-sm" >}}
     </div>
   </article>
 
@@ -39,10 +41,6 @@ tags: Community Partners
 
   <h3 class="mb-3 text-2xl font-bold text-gray-900 dark:text-white">Download Complete Logo Pack</h3>
 
-  <a href="/images/SherpaSec Logo.rar"
-     download
-     class="inline-flex items-center gap-3 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 shadow-lg bg-primary-600 rounded-xl hover:bg-primary-700 hover:shadow-xl hover:scale-105 sherpa-download-logo">
-    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-    <span>Download Logo Pack</span>
-  </a>
+  {{< download-brand-assets src="brand-assets/SherpaSec Logo.rar" text="Download Logo Pack" >}}
+
 </div>

@@ -3,11 +3,12 @@ title: "Community Partners"
 date: 2000-06-18T11:10:36+08:00
 draft: false
 language: en
-# featured_image: ../assets/images/pages/DALL-E-IMG6.webp
 summary: This page highlights community-driven cybersecurity networks that foster collaboration, knowledge sharing, and awareness through inclusive events and initiatives. These groups provide platforms for professionals, practitioners, and enthusiasts to connect, exchange ideas, and promote a positive culture that supports both learning and the advancement of global cybersecurity practices.
 description: A page about our community partners
 categories: Community Partners
 tags: Community Partners
+featured_image: /images/featured/SHERPASEC_BANNER.png
+authorimage: /images/global/SherpaSec_Logo.png
 ---
 
 <section class="mb-12">
@@ -26,9 +27,7 @@ tags: Community Partners
     </h3>
   </div>
 
-  <div class="mb-6">
-    <img src="/images/partners/div0_white.png" alt="Division Zero" class="w-full max-w-2xl mx-auto">
-  </div>
+  {{< community-partner src="community-partners/div0_white.png" alt="Division Zero" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -45,9 +44,7 @@ tags: Community Partners
     </h3>
   </div>
 
-  <div class="mb-6">
-    <img src="/images/partners/THG_white.png" alt="The Hacking Group" class="w-full max-w-2xl mx-auto">
-  </div>
+  {{< community-partner src="community-partners/THG_white.png" alt="The Hacking Group" >}}
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">

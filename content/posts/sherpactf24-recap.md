@@ -54,7 +54,7 @@ We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZ
     </div>
     <h3 class="text-center text-white font-medium my-4">Platinum Sponsors</h3>
     <div class="fcc sponsors-2024 platinum-sponsors">
-        <img src="/images/sherpactf/div0_white.png" alt="Div0" />
+        {{< img src="community-partners/div0_white.png" alt="Div0" >}}
         <img src="/images/sherpactf/kotex_white.png" alt="KOTEX" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>

@@ -1,8 +1,8 @@
 ---
 title: "SherpaCTF"
 author: SherpaSec
-featured_image: ../assets/images/posts/sherpactf/sherpactf-SHERPACTF_BANNER.png
-authorimage: ../assets/images/global/SherpaSec_Logo.png
+featured_image: /images/posts/sherpactf/sherpactf-SHERPACTF_BANNER.png
+authorimage: /images/global/SherpaSec_Logo.png
 summary: "SherpaSec Very Own CTF"
 description: "SherpaSec Very Own CTF"
 ---

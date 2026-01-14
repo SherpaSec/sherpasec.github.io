@@ -1,6 +1,6 @@
 ---
 title: "Meetup - July 2025"
-date: 2025-05-28
+date: 2025-07-18
 draft: false
 language: en
 featured_image: /images/featured/july25.jpg

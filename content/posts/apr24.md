@@ -16,4 +16,4 @@ Our eighth community meetup has concluded successfully, gathering cybersecurity 
 
 Thank you to everyone who participated in making this event a success!
 
-![Event_Poster](/images/posters/20240430_Poster_Apr.png)
+{{< imgc src="posters/20250418_Poster_Apr.png" alt="Event Poster" >}}

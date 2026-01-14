@@ -16,4 +16,4 @@ Our tenth community meetup was an exciting event, gathering cybersecurity enthus
 
 Thank you to all who attended and contributed to making this event a success!
 
-![Event_Poster](/images/posters/20240620_Poster_Jun.jpg)
+{{< imgc src="posters/20240620_Poster_Jun.jpg" alt="Event Poster" >}}

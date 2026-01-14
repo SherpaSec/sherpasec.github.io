@@ -20,4 +20,4 @@ The session also allowed time for networking and open discussion, giving partici
 
 Thank you to everyone who attended and contributed to making this meetup a valuable experience.
 
-![Event_Poster](/images/posters/20250418_Poster_Apr.png)
+{{< imgc src="posters/20250418_Poster_Apr.png" alt="Event Poster" >}}

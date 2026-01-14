@@ -16,4 +16,4 @@ Our ninth community meetup was an engaging gathering, bringing together cybersec
 
 Thank you to everyone who participated in making this event a success!
 
-![Event_Poster](/images/posters/20240517_Poster_May.png)
+{{< imgc src="posters/20240517_Poster_May.png" alt="Event Poster" >}}

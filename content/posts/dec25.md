@@ -24,4 +24,4 @@ A massive thank you to Trishia and the team at Kaspersky for making this event p
 
 That’s a wrap for 2025, thank you for being part of the journey. We’ll see you in 2026. Until then, stay curious and keep building.
 
-![Event_Poster](/images/posters/20251201_Poster_dec.jpg)
+{{< imgc src="posters/20251201_Poster_dec.jpg" alt="Event Poster" >}}

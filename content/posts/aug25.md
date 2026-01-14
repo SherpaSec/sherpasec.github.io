@@ -20,4 +20,4 @@ Congratulations to all the winners who took home some well-earned swag, and a bi
 
 Thank you once again to Range Village for collaborating with us, and to the community for showing up and making this CTF a success. Until the next one!
 
-![Event_Poster](/images/posters/20250830_Poster_Aug.jpg)
+{{< imgc src="posters/20250830_Poster_Aug.jpg" alt="Event Poster" >}}

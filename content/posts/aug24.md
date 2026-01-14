@@ -17,4 +17,4 @@ Following that, we had an experienced professional who shared critical insights 
 
 Thank you to all who participated in making this event a success!
 
-![Event_Poster](/images/posters/20240822_Poster_Aug.png)
+{{< imgc src="posters/20240822_Poster_Aug.png" alt="Event Poster" >}}

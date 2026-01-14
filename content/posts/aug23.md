@@ -16,4 +16,4 @@ Our second meetup for this community concluded successfully, where local cyberse
 
 Thank you to everyone who participated in making this event a success!
 
-![Event_Poster](/images/posters/20230803_Poster_Aug.png)
+{{< imgc src="posters/20230803_Poster_Aug.png" alt="Event Poster" >}}

@@ -17,4 +17,4 @@ Following that, Zhi Ren, a talented CTF Pwn Player, presented on "Finding the Fu
 
 Thank you to all who participated in making this event a success!
 
-{{< imgc src="posters/20240919_Poster_Sep.png" alt="Event Poster" >}}
+<img src="/images/posters/20240919_Poster_Sep.png" alt="Event Poster" />

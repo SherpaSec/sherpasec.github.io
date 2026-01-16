@@ -19,4 +19,4 @@ Christopher Lim, Solutions Architect at Kaspersky, kicked things off with "Agent
 
 As always, the meetup included time for networking, open discussions, and refreshments, creating space for attendees to connect and exchange ideas. Thank you to everyone who joined us and helped make this session another meaningful and memorable one. See you at the next meetup!
 
-{{< imgc src="posters/july25.jpg" alt="Event Poster" >}}
+<img src="/images/posters/july25.png" alt="Event Poster" />

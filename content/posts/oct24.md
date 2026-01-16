@@ -15,4 +15,4 @@ Our fourteen community meetup was an inspiring event, bringing together cybersec
 
 Thank you to everyone who participated in making this event a success!
 
-{{< imgc src="posters/20241010_Poster_Oct.png" alt="Event Poster" >}}
+<img src="/images/posters/20241010_Poster_Oct.png" alt="Event Poster" />

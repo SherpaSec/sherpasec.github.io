@@ -16,4 +16,4 @@ Our fourth meetup for this community concluded successfully, where local cyberse
 
 Thank you to everyone who participated in making this event a success!
 
-{{< imgc src="posters/20231116_Poster_Nov.png" alt="Event Poster" >}}
+<img src="/images/posters/20231116_Poster_Nov.png" alt="Event Poster" />

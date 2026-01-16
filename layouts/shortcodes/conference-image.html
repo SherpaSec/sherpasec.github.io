@@ -1,4 +1,6 @@
-<!-- layouts/shortcodes/conference-image.html -->
+{{- $src := resources.Get (printf "images/%s" (.Get "src")) -}}
+{{ if $src }}
 <div class="mb-4">
-  <img src="/images/{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="w-full max-w-3xl mx-auto rounded-lg">
+  <img src="{{ $src.RelPermalink }}" alt="{{ .Get "alt" }}" class="w-full max-w-3xl mx-auto rounded-lg">
 </div>
+{{ end }}

@@ -51,16 +51,16 @@ Special thanks to Parallel Pulse for having us at their excellent conference, an
     </div>
     <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
     <div class="fcc sponsors-2025 gold-sponsors">
-        <img src="/images/sherpactf-25/signalens.PNG" alt="Signalens" />
+        {{< img src="sherpactf-25/signalens.PNG" alt="Signalens" >}}
     </div>
     <h3 class="text-center text-white font-medium my-4">Bronze Sponsors</h3>
     <div class="fcc sponsors-2025 bronze-sponsors">
-        <img src="/images/sherpactf/CASABA Logo (Big).png" alt="Casaba" />
-        <img src="/images/sherpactf/ASVerticalWhiteOutlineLogo.png" alt="Altered Security" />
+        {{< img src="sherpactf-25/casaba.png" alt="Casaba" >}}
+        {{< img src="sherpactf-25/altered-security.png" alt="Altered Security" >}}
     </div>
     <h3 class="text-center text-white font-medium my-4">Benefit-in-Kind</h3>
     <div class="fcc sponsors-2025 bik-sponsors">
-        <img src="/images/sherpactf/verdesec_green.png" alt="VerdeSec" />
+        {{< img src="sherpactf-25/verdesec_green.png" alt="VerdeSec" >}}
     </div>
 </section>
 

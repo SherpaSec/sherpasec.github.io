@@ -3,6 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.read-recap {
+    text-decoration: none !important;
+}
+
+.sherpa-ctf-past-events {
+    margin-bottom: 2rem !important;
+    margin-top: 0 !important;
+}
+
+.sherpa-ctf-title {
+    margin-top: 0.5rem !important;
+}
+
 .landing-page-wrapper {
     position: relative;
     width: 100%;

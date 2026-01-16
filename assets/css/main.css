@@ -42,6 +42,14 @@
     opacity: 0.75;
 }
 
+.footer {
+    padding: 2rem 1.5rem !important;
+}
+
+.footer nav div {
+    padding: 0.25rem 0.75rem !important
+}
+
 .fcc {
     @apply flex justify-center items-center;
 }
@@ -492,6 +500,15 @@ article header h1 {
     overflow-wrap: break-word !important;
     word-break: break-word !important;
     hyphens: auto !important;
+}
+
+/* Footer font size reduction */
+footer nav a {
+    @apply text-xs !important;
+}
+
+footer p {
+    @apply text-xs !important;
 }
 
 /* Custom CSS end */

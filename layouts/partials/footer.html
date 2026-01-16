@@ -3,7 +3,7 @@
 {{ $js := resources.Get "js/darkmode.js" | js.Build }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 <footer class="bg-gray-900">
-    <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="footer max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
             {{ range site.Menus.footer }}
             <div class="px-5 py-2">
@@ -12,7 +12,7 @@
             {{ end }}
         </nav>
         {{ partial "social-icons.html" . }}
-        <p class="mt-8 text-base text-center text-gray-400">&copy; {{ now.Format "2006" }}
+        <p class="mt-6 text-base text-center text-gray-400">&copy; {{ now.Format "2006" }}
             {{ .Site.Title }}. All rights
             reserved.</p>
     </div>

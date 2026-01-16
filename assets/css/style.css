@@ -3826,6 +3826,14 @@ video {
   opacity: 0.75;
 }
 
+.footer {
+  padding: 2rem 1.5rem !important;
+}
+
+.footer nav div {
+  padding: 0.25rem 0.75rem !important
+}
+
 .fcc {
   display: flex;
   align-items: center;
@@ -4432,6 +4440,18 @@ article header h1 {
   word-break: break-word !important;
   -webkit-hyphens: auto !important;
           hyphens: auto !important;
+}
+
+/* Footer font size reduction */
+
+footer nav a {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+footer p {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
 }
 
 /* Custom CSS end */

@@ -1,5 +1,5 @@
 ---
-title: "Meetup - August 2024"
+title: "Meetup - Aug 2024"
 date: 2024-08-22
 language: en
 featured_image: /images/featured/aug24.jpg

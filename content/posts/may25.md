@@ -20,4 +20,4 @@ Foo-Bang Chan, representing F5, delivered a talk on "Securing AI Deployment: Ove
 
 Thank you to everyone who joined us and contributed to the success of this event.
 
-<img src="/images/posters/owasp_may25.png" alt="Event Poster" />
+{{< imgc src="posters/owasp_may25.jpg" alt="Event Poster" >}}

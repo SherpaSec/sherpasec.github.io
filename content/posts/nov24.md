@@ -20,4 +20,4 @@ The event also offered time for informal conversations and networking, providing
 
 Thank you to everyone who joined us and helped make the session a meaningful one.
 
-<img src="/images/posters/20241114_Poster_Nov.png" alt="Event Poster" />
+{{< imgc src="posters/20241114_Poster_Nov.png" alt="Event Poster" >}}

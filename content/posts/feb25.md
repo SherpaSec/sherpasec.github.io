@@ -20,4 +20,4 @@ The event also included time for networking, allowing attendees to connect, exch
 
 Thank you to all who joined us and contributed to another meaningful session.
 
-<img src="/images/posters/20250220_Poster_Feb.png" alt="Event Poster" />
+{{< imgc src="posters/20250220_Poster_Feb.png" alt="Event Poster" >}}

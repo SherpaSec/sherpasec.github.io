@@ -16,4 +16,4 @@ Our third meetup for this community concluded successfully, where local cybersec
 
 Thank you to everyone who participated in making this event a success!
 
-<img src="/images/posters/20231012_Poster_Oct.png" alt="Event Poster" />
+{{< imgc src="posters/20231012_Poster_Oct.png" alt="Event Poster" >}}

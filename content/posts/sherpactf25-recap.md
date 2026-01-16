@@ -46,12 +46,12 @@ Special thanks to Parallel Pulse for having us at their excellent conference, an
     <h2 class="text-center text-white text-2xl font-bold mb-4">Our Sponsors</h2>
     <h3 class="text-center text-white font-medium my-4">Platinum Sponsors</h3>
     <div class="fcc sponsors-2025 platinum-sponsors">
-        <img src="/images/sherpactf/div0_new2.png" alt="Div0" class='div0' />
-        <img src="/images/sherpactf/W Font.png" alt="THG" class='thg' />
+        <img src="/images/community-partners/div0_white.png" alt="Div0" class='div0' />
+        <img src="/images/community-partners/THG_white.png" alt="THG" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
     <div class="fcc sponsors-2025 gold-sponsors">
-        <img src="/images/sherpactf/SIGNALENS.PNG" alt="Signalens" />
+        <img src="/images/sherpactf-25/signalens.PNG" alt="Signalens" />
     </div>
     <h3 class="text-center text-white font-medium my-4">Bronze Sponsors</h3>
     <div class="fcc sponsors-2025 bronze-sponsors">

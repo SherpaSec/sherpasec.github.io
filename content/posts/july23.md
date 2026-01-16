@@ -16,4 +16,4 @@ Our first activity for this community was the organization of a meetup where loc
 
 Thank you to everyone who participated!
 
-<img src="/images/posters/20230706_Poster_July.png" alt="Event Poster" />
+{{< imgc src="posters/20230706_Poster_July.png" alt="Event Poster" >}}

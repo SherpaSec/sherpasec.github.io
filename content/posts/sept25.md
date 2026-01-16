@@ -22,4 +22,4 @@ The session also included time for networking and casual conversations, giving a
 
 A big thank-you to Nexagate for being wonderful hosts, and to everyone who attended and contributed to yet another meaningful session. We look forward to seeing you at the next one!
 
-<img src="/images/posters/20250918_Poster_Sept.jpg" alt="Event Poster" />
+{{< imgc src="posters/20250918_Poster_Sept.jpg" alt="Event Poster" >}}

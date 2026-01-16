@@ -19,4 +19,4 @@ Between the two speaker sessions, there was a short talk on "Introduction to ISC
 
 Thank you to all who attended and contributed to making this event a success!
 
-<img src="/images/posters/20240724_Poster_July.png" alt="Event Poster" />
+{{< imgc src="posters/20240724_Poster_July.png" alt="Event Poster" >}}

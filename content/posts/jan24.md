@@ -16,4 +16,4 @@ Our fifth meetup for this community was indeed an engaging event where local cyb
 
 Thank you to all who attended and contributed to making this event a success!
 
-<img src="/images/posters/20240118_Poster_Jan.png" alt="Event Poster" />
+{{< imgc src="posters/20240118_Poster_Jan.png" alt="Event Poster" >}}

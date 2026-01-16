@@ -47,16 +47,17 @@
     <div class="sticky top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 border-b-stone-200/10">
     <div x-data="{ open: false }"
          class="flex flex-col max-w-full px-4 mx-auto xl:items-center xl:justify-between xl:flex-row xl:px-6 2xl:px-8">
-        <div class="flex flex-row items-center justify-between p-4">
-            <a href="http://localhost:1313/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="http://localhost:1313/images/site-logo.svg"
-                     class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
-                     alt="SherpaSec Logo" />
-                <div
-                     class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60 conthrax-sb-font">
+        <div class="flex flex-row items-center justify-between p-4"><a href="http://localhost:1313/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                
+                <img src="http://localhost:1313/images/brand-assets/sherpasec-site-logo.svg"
+                    class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
+                    alt="SherpaSec Logo" />
+                
+                <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60 conthrax-sb-font">
                     SherpaSec
                 </div>
             </a>
+
             <button class="rounded-lg xl:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                     <path x-show="!open" fill-rule="evenodd"

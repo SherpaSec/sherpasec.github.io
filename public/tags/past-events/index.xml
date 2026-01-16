@@ -6,7 +6,7 @@
     <description>Recent content in Past Events on SherpaSec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 23:30:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 20:07:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/past-events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sherpasec X Kaspersky Cyber Fest 2025</title>
@@ -79,21 +79,21 @@
       <description>Local cybersecurity meetup featured two insightful talks: one by an experienced professional exploring the contrast between pentesting and red teaming, and another by a student reflecting on lessons learned through web CTF challenges.</description>
     </item>
     <item>
-      <title>Meetup - October 2024</title>
+      <title>Meetup - Oct 2024</title>
       <link>http://localhost:1313/posts/oct24/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/oct24/</guid>
       <description>Local cybersecurity meetup featured two standout speakers: the first provided insights into web pentesting, while the second discussed the complexities of DNS proxies in cybersecurity</description>
     </item>
     <item>
-      <title>Meetup - September 2024</title>
+      <title>Meetup - Sept 2024</title>
       <link>http://localhost:1313/posts/sep24/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/sep24/</guid>
       <description>Local cybersecurity meetup featured two standout speakers: the first discussed cybersecurity innovation through peer learning, while the second highlighted the thrill of CTF Pwn challenges.</description>
     </item>
     <item>
-      <title>Meetup - August 2024</title>
+      <title>Meetup - Aug 2024</title>
       <link>http://localhost:1313/posts/aug24/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aug24/</guid>

@@ -2,8 +2,14 @@
 <main>
     <div class="bg-gray-200 dark:bg-gray-900 fcc landing-page">
         <div class="landing-page-wrapper">
-            <img src="images/landing-page/landing-page.png" class="landing-page-image">
-            <img src="images/landing-page/black-overlay.png" class="black-overlay">
+            {{ $landingImage := resources.Get "images/landing-page/landing-page.png" }}
+            {{ with $landingImage }}
+            <img src="{{ .RelPermalink }}" class="landing-page-image">
+            {{ end }}
+            {{ $blackOverlay := resources.Get "images/landing-page/black-overlay.png" }}
+            {{ with $blackOverlay }}
+            <img src="{{ .RelPermalink }}" class="black-overlay">
+            {{ end }}
             <div class="logo-container fcc">
                 <div class="lg:text-left sherpasec-text fcc">
                     <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white conthrax-sb-font uppercase">

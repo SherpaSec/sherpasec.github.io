@@ -83,8 +83,14 @@
             {{ .Site.Params.P3.Heading }}
         </h2>
         <div class="community-partner-logos fcc">
-            <img src="/images/sherpactf/div0_white.png" alt="Div0" class="div0" />
-            <img src="/images/sherpactf/W Font.png" alt="THG" />
+            {{ $div0 := resources.Get "images/sherpactf/div0_white.png" }}
+            {{ with $div0 }}
+            <img src="{{ .RelPermalink }}" alt="Div0" class="div0" />
+            {{ end }}
+            {{ $thg := resources.Get "images/sherpactf/W Font.png" }}
+            {{ with $thg }}
+            <img src="{{ .RelPermalink }}" alt="THG" />
+            {{ end }}
         </div>
         <a class="custom-text button" href="/community-partners">
             More information about our community partners >

@@ -55,7 +55,10 @@
         <div class="text-container fss">
             {{ range .Site.Params.p1.content }}
             <div class="mission-items fcc">
-                <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Mission Image">
+                {{ $icon := resources.Get .image }}
+                {{ with $icon }}
+                <img src="{{ .RelPermalink }}" alt="Mission Image">
+                {{ end }}
                 <p class="custom-text">{{ .text }}</p>
             </div>
             {{ end }}

@@ -3,9 +3,12 @@
          class="flex flex-col max-w-full px-4 mx-auto xl:items-center xl:justify-between xl:flex-row xl:px-6 2xl:px-8">
         <div class="flex flex-row items-center justify-between p-4">
             <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="images/brand-assets/sherpasec-site-logo.svg"
+                {{ $logo := resources.Get "images/brand-assets/sherpasec-site-logo.svg" }}
+                {{ with $logo }}
+                <img src="{{ .RelPermalink }}"
                     class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
-                    alt="Logo {{ .Site.Title }}" />
+                    alt="Logo {{ $.Site.Title }}" />
+                {{ end }}
                 <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60 conthrax-sb-font">
                     {{ .Site.Title }}
                 </div>

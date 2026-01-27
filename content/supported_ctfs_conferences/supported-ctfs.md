@@ -141,4 +141,30 @@ categories: supported_ctfs_conferences
   </div>
 </article>
 
+<!-- Women Thailand Cyber Top Talent -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl">
+  <div class="flex items-start justify-between mb-4">
+    <h2 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://www.thnca.or.th/fiscal-2568/wtctt2025/" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        Women Thailand Cyber Top Talent
+      <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h2>
+  </div>
+
+  {{< conference-image src="supported-ctfs/Thailand-CTF.png" alt="Women Thailand Cyber Top Talent" class="max-w-md" align="left" >}}
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      Women Thailand Cyber Top Talent is a Jeopardy-style Capture the Flag competition for women in Thailand. Organized by Thailand's National Cyber Security Agency (NCSA) and Huawei Technologies (Thailand), the competition focuses on developing cybersecurity skills for female participants and giving women more opportunities in the cybersecurity field. The event has challenges in eight categories including Web Application, Digital Forensics, Reverse Engineering & Pwnable, Network Security, Mobile Security, Programming, Cryptography, and AI/IoT.
+    </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec is honored to contribute to this CTF by sponsoring challenges for the competition.</span>
+      </p>
+    </div>
+  </div>
+</article>
+
 </div>

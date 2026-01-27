@@ -183,6 +183,32 @@ categories: supported_ctfs_conferences
   </div>
 </article>
 
+<!-- DEF CON Singapore -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl mb-8">
+  <div class="flex items-start justify-between mb-4">
+    <h3 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://defcon.org/html/defcon-singapore/dc-singapore-index.html" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        DEF CON Singapore
+        <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h3>
+  </div>
+
+  {{< conference-image src="supported-conferences/defcon-singapore.webp" alt="DEF CON Singapore" >}}
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      DEF CON Singapore is the first international expansion of the famous DEF CON hacking conference. Co-organized by DEF CON and HTX (Home Team Science & Technology Agency), with Centre for Strategic Infocomm Technologies (CSIT) as strategic partner, the event will be held at Marina Bay Sands. It features hands-on training courses, world-class presentations, interactive Villages, Demo Labs for open source projects, contests, and entertainment. DEF CON Singapore focuses on discovery and hands-on learning, understanding technology fundamentals and creative problem-solving.
+    </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec will be hosting a booth at DEF CON Singapore 2026.</span>
+      </p>
+    </div>
+  </div>
+</article>
+
 <!-- Standcon -->
 <article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl mb-8">
   <div class="flex items-start justify-between mb-4">

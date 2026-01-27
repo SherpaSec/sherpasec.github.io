@@ -1,6 +1,9 @@
 {{- $src := resources.Get (printf "images/%s" (.Get "src")) -}}
+{{- $class := .Get "class" | default "max-w-3xl" -}}
+{{- $align := .Get "align" | default "center" -}}
+{{- $alignClass := cond (eq $align "left") "mr-auto" (cond (eq $align "right") "ml-auto" "mx-auto") -}}
 {{ if $src }}
 <div class="mb-4">
-  <img src="{{ $src.RelPermalink }}" alt="{{ .Get "alt" }}" class="w-full max-w-3xl mx-auto rounded-lg">
+  <img src="{{ $src.RelPermalink }}" alt="{{ .Get "alt" }}" class="w-full {{ $class }} {{ $alignClass }} rounded-lg">
 </div>
 {{ end }}

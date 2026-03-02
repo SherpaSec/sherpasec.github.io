@@ -50,24 +50,24 @@ We express our sincere gratitude to all the sponsors, Dell, Div0, Kotex, ArmourZ
     <h2 class="text-center text-white text-2xl font-bold mb-4">Our Sponsors</h2>
     <h3 class="text-center text-white font-medium my-4">Venue Sponsor</h3>
     <div class="fcc sponsors-2024 venue-sponsor">
-        <img src="/images/sherpactf-24/delltech-logo-stk-blue-wht.png" alt="Dell" />
+        {{< img src="sherpactf-24/delltech-logo-stk-blue-wht.png" alt="Dell" >}}
     </div>
     <h3 class="text-center text-white font-medium my-4">Platinum Sponsors</h3>
     <div class="fcc sponsors-2024 platinum-sponsors">
-        <img src="/images/community-partners/div0_white.png" alt="Div0" />
-        <img src="/images/sherpactf-24/kotex_white.png" alt="KOTEX" />
+        {{< img src="community-partners/div0_white.png" alt="Div0" >}}
+        {{< img src="sherpactf-24/kotex_white.png" alt="KOTEX" >}}
     </div>
     <h3 class="text-center text-white font-medium my-4">Gold Sponsors</h3>
     <div class="fcc sponsors-2024 gold-sponsors">
-        <img src="/images/sherpactf-24/MoneyLion_Logo_RGB_Vertical_Outline_White.png" alt="MoneyLion" />
-        <img src="/images/sherpactf-24/ArmourZero_White.png" alt="Armour Zero" />
+        {{< img src="sherpactf-24/ArmourZero_White.png" alt="MoneyLion" >}}
+        {{< img src="sherpactf-24/MoneyLion_Logo_RGB_Vertical_Outline_White.png" alt="Armour Zero" >}}
     </div>
     <h3 class="text-center text-white font-medium my-4">Benefit-in-Kind</h3>
     <div class="fcc sponsors-2024 bik-sponsors">
-        <img src="/images/sherpactf-24/pentesterlab_logo_white.png" alt="PentesterLab" />
-        <img src="/images/sherpactf-24/OffSec_Tagline_White.png" alt="OffSec" />
-        <img src="/images/sherpactf-24/n0h4ts-logo-black.png" alt="N0H4TS" />
-        <img src="/images/sherpactf-24/verdesec_green.png" alt="VerdeSecZero" />
+        {{< img src="sherpactf-24/pentesterlab_logo_white.png" alt="PentesterLab" >}}
+        {{< img src="sherpactf-24/OffSec_Tagline_White.png" alt="OffSec" >}}
+        {{< img src="sherpactf-24/n0h4ts-logo-black.png" alt="N0H4TS" >}}
+        {{< img src="sherpactf-24/verdesec_green.png" alt="VerdeSecZero" >}}
     </div>
 </section>
 

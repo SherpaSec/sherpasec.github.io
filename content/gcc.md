@@ -212,9 +212,18 @@ SherpaSec has proudly supported and sponsored the GCC event from 2020 through to
           <p class="font-semibold text-primary-600 dark:text-primary-400">Ezaly Iman</p>
           <p class="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300">Read Blog <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></p>
         </a>
-        <div class="testimonial w-[200px] min-h-[80px] p-2 bg-white rounded-lg shadow-sm dark:bg-gray-700">
-          <p class="font-semibold text-gray-900 dark:text-white">Hong Wei</p>
-        </div>
+        <a href="https://hongwei5489.medium.com/global-cybersecurity-camp-gcc-2021-11f014b4cd75"
+           target="_blank" rel="noopener noreferrer"
+           class="testimonial block w-[200px] min-h-[80px] p-2 transition-all bg-white rounded-lg shadow-sm dark:bg-gray-700 hover:shadow-md hover:scale-105 no-underline hover:no-underline">
+          <p class="font-semibold text-primary-600 dark:text-primary-400">Hong Wei</p>
+          <p class="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300">Read Blog <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></p>
+        </a>
+        <a href="https://weiwei-1612.medium.com/global-cybersecurity-camp-gcc-2021-c87c3b0833e4"
+           target="_blank" rel="noopener noreferrer"
+           class="testimonial block w-[200px] min-h-[80px] p-2 transition-all bg-white rounded-lg shadow-sm dark:bg-gray-700 hover:shadow-md hover:scale-105 no-underline hover:no-underline">
+          <p class="font-semibold text-primary-600 dark:text-primary-400">Wei Wei</p>
+          <p class="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300">Read Blog <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></p>
+        </a>
         <div class="testimonial w-[200px] min-h-[80px] p-2 bg-white rounded-lg shadow-sm dark:bg-gray-700">
           <p class="font-semibold text-gray-900 dark:text-white">Yik Han</p>
         </div>

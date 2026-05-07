@@ -3793,6 +3793,10 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+html, body {
+  overflow-x: clip;
+}
+
 .read-recap {
   text-decoration: none !important;
 }
@@ -3852,6 +3856,10 @@ video {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+html, body {
+  overflow-x: clip;
 }
 
 .landing-page {
@@ -4141,7 +4149,7 @@ video {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 6rem;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
 }
 

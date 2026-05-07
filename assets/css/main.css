@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    overflow-x: clip;
+}
+
 .read-recap {
     text-decoration: none !important;
 }
@@ -242,7 +246,7 @@
 
 
 .content {
-    @apply flex-col w-screen my-12 mx-0 mb-24;
+    @apply flex-col w-full my-12 mx-0 mb-24;
 }
 
 .content .text-container {

@@ -125,6 +125,26 @@ categories: supported_ctfs_conferences
   </div>
 </article>
 
+<!-- Positive Hack Talks Kuala Lumpur -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl mb-8">
+  <div class="flex items-start justify-between mb-4">
+    <h3 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://phtalks.ptsecurity.com/" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        Positive Hack Talks Kuala Lumpur
+        <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h3>
+  </div>
+
+  {{< conference-image src="supported-conferences/PHTALKS.png" alt="Positive Hack Talks" >}}
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      Positive Hack Talks Kuala Lumpur is a free, community-driven cybersecurity meetup organized by Positive Technologies, bringing together researchers, ethical hackers, and security practitioners for an evening of practical, no-nonsense knowledge sharing. The event features keynote talks, live Q&A sessions, 10-minute community stand-ups, and networking — covering topics such as vulnerability research, bug bounty techniques, penetration testing and red teaming, OSINT, kernel and Android/Windows exploitation, and OT/IoT security. Held at Pavilion Hotel Kuala Lumpur on 5 May 2026, the event offers bilingual support in English and Bahasa Melayu.
+    </p>
+  </div>
+</article>
+
 <!-- Singapore Section Header -->
 <div class="mb-8">
   <h2 class="text-4xl font-black text-gray-900 dark:text-white mb-2">Singapore</h2>
@@ -381,6 +401,32 @@ categories: supported_ctfs_conferences
         <span>SherpaSec sponsored a ticket to TenguCon, helping a community member experience this outdoor hacker camp that mixes technical learning with nature. <a href="https://www.linkedin.com/posts/mikaelwecksten_this-summer-i-went-to-a-outdoors-hacker-camp-activity-7397865114290429952-1F5G/?rcm=ACoAAC0ozJEBvJDfeOs8qww5b8IshJBzK7Xs1TQ" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Read the attendee's experience</a>.</span>
       </p>
     </div>
+  </div>
+</article>
+
+<!-- Hong Kong Section Header -->
+<div class="mb-8">
+  <h2 class="text-4xl font-black text-gray-900 dark:text-white mb-2">Hong Kong</h2>
+  <div class="h-1 w-24 bg-primary-600 rounded"></div>
+</div>
+
+<!-- HK-Hack -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl mb-8">
+  <div class="flex items-start justify-between mb-4">
+    <h3 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://www.hk-hack.com/" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        HK-Hack
+        <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h3>
+  </div>
+
+  {{< conference-image src="supported-conferences/HKHACK_white.png" alt="HK-Hack" >}}
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      HK-Hack is a Hong Kong-based cybersecurity community that brings together hackers, researchers, and security enthusiasts to exchange ideas, share knowledge, and grow the local hacker culture. Through meetups, talks, and collaborative events, HK-Hack provides a welcoming platform for both newcomers and experienced practitioners to connect with the wider security ecosystem and contribute to the development of Hong Kong's cybersecurity community.
+    </p>
   </div>
 </article>
 

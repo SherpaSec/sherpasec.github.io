@@ -3858,10 +3858,6 @@ html, body {
   justify-content: flex-start;
 }
 
-html, body {
-  overflow-x: clip;
-}
-
 .landing-page {
   flex-direction: column;
 }

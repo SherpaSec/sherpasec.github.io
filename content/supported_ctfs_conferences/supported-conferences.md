@@ -261,6 +261,32 @@ categories: supported_ctfs_conferences
   </div>
 </article>
 
+<!-- OASec -->
+<article class="relative p-6 transition-all duration-300 border-l-4 rounded-lg shadow-md bg-gray-50 dark:bg-gray-800 border-primary-600 hover:shadow-xl mb-8">
+  <div class="flex items-start justify-between mb-4">
+    <h3 class="text-3xl font-black text-gray-900 dark:text-white supported-ctf-title">
+      <a href="https://oasec.org/" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        OASec 2026
+        <svg class="inline w-5 h-5 ml-1 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+    </h3>
+  </div>
+
+  {{< conference-image src="supported-conferences/OASEC LOGO.png" alt="OASec 2026" >}}
+
+  <div class="space-y-4">
+    <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+      OASec 2026 is the first practitioner-focused AI safety and security conference in the Asia Pacific region. Organised by Vulcan, AIFT, and Datumo, it brings together security researchers, CISOs, policymakers, and practitioners for an intensive single-stage day of technical talks across four tracks: Enterprise, Governance, Offense, and Defense. Held on 28 September 2026 at the IMDA PIXEL Innovation Hub in Singapore, attendance is approval-based and capped at ~150 to preserve a high-quality practitioner audience. The Call for Papers is open until 1 July 2026, welcoming original research, red team findings, enterprise case studies, live demos, and open-source tooling from all experience levels, with regional APAC perspectives especially valued.
+    </p>
+    <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
+      <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
+        <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>SherpaSec is proud to be a Community Supporter of OASec 2026. If you have work worth presenting, <a href="https://forms.gle/rU7Ch7fyGAiJChRm8" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">submit a talk</a> before 1 July 2026, or <a href="https://lu.ma/0o68b2gi" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">express your interest</a> in attending.</span>
+      </p>
+    </div>
+  </div>
+</article>
+
 <!-- USA Section Header -->
 <div class="mb-8">
   <h2 class="text-4xl font-black text-gray-900 dark:text-white mb-2">USA</h2>

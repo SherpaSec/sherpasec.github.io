@@ -24,4 +24,4 @@ A special thank you to Range Village for partnering with us once again and for p
 
 Until the next meetup!
 
-{{< imgc src="posters/may26.jpg" alt="Event Poster" >}}
+{{< imgc src="posters/poster-may-2026.jpg" alt="Event Poster" >}}

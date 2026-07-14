@@ -224,12 +224,12 @@ categories: supported_ctfs_conferences
 
   <div class="space-y-4">
     <p class="text-base leading-relaxed text-gray-700 dark:text-gray-300">
-      DEF CON Singapore is the first international expansion of the famous DEF CON hacking conference. Co-organized by DEF CON and HTX (Home Team Science & Technology Agency), with Centre for Strategic Infocomm Technologies (CSIT) as strategic partner, the event will be held at Marina Bay Sands. It features hands-on training courses, world-class presentations, interactive Villages, Demo Labs for open source projects, contests, and entertainment. DEF CON Singapore focuses on discovery and hands-on learning, understanding technology fundamentals and creative problem-solving.
+      DEF CON Singapore was the first international expansion of the famous DEF CON hacking conference. Organized jointly by DEF CON and HTX (Home Team Science & Technology Agency), with Centre for Strategic Infocomm Technologies (CSIT) as strategic partner, the event was held at Marina Bay Sands. It featured practical training courses, world class presentations, interactive Villages, Demo Labs for open source projects, contests, and entertainment. DEF CON Singapore focused on discovery, practical learning, understanding technology fundamentals, and creative problem solving.
     </p>
     <div class="pt-4 border-t border-gray-200 dark:border-gray-700">
       <p class="flex items-start gap-2 text-sm font-medium text-primary-700 dark:text-primary-400">
         <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-        <span>SherpaSec will be hosting a booth at DEF CON Singapore 2026.</span>
+        <span>SherpaSec hosted a booth at DEF CON SG 2026. <a href="/posts/defcon-sg-2026/" class="underline hover:text-primary-600 dark:hover:text-primary-300">Read our recap.</a></span>
       </p>
     </div>
   </div>

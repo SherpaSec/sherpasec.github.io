@@ -4,8 +4,8 @@ date: 2026-04-30
 draft: false
 language: en
 featured_image: /images/defcon-sg-2026/Crew Picture 2.jpg
-summary: "SherpaSec attended DEF CON SG with our first physical booth outside Malaysia, a cybersecurity escape room, our crew on the Creator Stage, and a little piece of our community in Singapore."
-description: "SherpaSec's first physical booth outside Malaysia featured a fully booked cybersecurity escape room, our crew on the Creator Stage, and conversations with the global hacker community."
+summary: "SherpaSec marked its first international community appearance at DEF CON SG with the first physical booth by a Malaysian cybersecurity community, featuring a fully booked cybersecurity escape room, Creator Stage discussions on the future of the industry, and meaningful engagement with the global hacker community."
+description: "SherpaSec marked its first international community appearance at DEF CON SG with the first physical booth by a Malaysian cybersecurity community, featuring a fully booked cybersecurity escape room, Creator Stage discussions on the future of the industry, and meaningful engagement with the global hacker community."
 author: SherpaSec
 authorimage: /images/global/SherpaSec_Logo.png
 categories: Past Events

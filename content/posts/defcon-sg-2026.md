@@ -3,7 +3,7 @@ title: "DEF CON SG 2026 Recap"
 date: 2026-04-30
 draft: false
 language: en
-featured_image: /images/defcon-sg-2026/Crew Picture 2.jpg
+featured_image: /images/defcon-sg-2026/Crew-Picture-2.jpg
 summary: "SherpaSec marked its first international community appearance at DEF CON SG with the first physical booth by a Malaysian cybersecurity community, featuring a fully booked cybersecurity escape room, Creator Stage discussions on the future of the industry, and meaningful engagement with the global hacker community."
 description: "SherpaSec marked its first international community appearance at DEF CON SG with the first physical booth by a Malaysian cybersecurity community, featuring a fully booked cybersecurity escape room, Creator Stage discussions on the future of the industry, and meaningful engagement with the global hacker community."
 author: SherpaSec
@@ -51,7 +51,7 @@ Building a cybersecurity escape room for a conference booth sounded simple. The 
 
 The response blew us away. Slots were fully booked within minutes of opening every day. We squeezed in as many extra players as the prototype allowed, and we hope everyone who got a slot enjoyed what we built.
 
-{{< imgc src="defcon-sg-2026/Participants at Escape Room.jpg" alt="Participants working through the SherpaSec cybersecurity escape room" >}}
+{{< imgc src="defcon-sg-2026/Participants-at-Escape-Room.jpg" alt="Participants working through the SherpaSec cybersecurity escape room" >}}
 
 **Missed your slot? Keep an eye out. This will not be our last escape room.**
 
@@ -59,7 +59,7 @@ The response blew us away. Slots were fully booked within minutes of opening eve
 
 For the first time, **Yen Wai**, **Shiau Huei**, **Lik Ken**, and **Ruhan** took the stage together to discuss the tensions shaping the next generation of cybersecurity practitioners.
 
-{{< imgc src="defcon-sg-2026/Creator Stage.jpg" alt="Shiau Huei speaking with Yen Wai, Lik Ken, and Ruhan on the DEF CON Creator Stage" >}}
+{{< imgc src="defcon-sg-2026/Creator-Stage.jpg" alt="Shiau Huei speaking with Yen Wai, Lik Ken, and Ruhan on the DEF CON Creator Stage" >}}
 
 They spoke about topics that people do not usually address openly on stage:
 
@@ -74,7 +74,7 @@ The conversations that followed made every midnight brainstorm worth it.
 
 Beyond the escape room and the stage, the best moments happened at the booth. People stopped to chat, shared ideas, picked up our freebies, and discovered who we are and what we stand for. Even the merch went through countless design iterations before making the journey with us.
 
-{{< imgc src="defcon-sg-2026/Crew Picture 1.jpg" alt="SherpaSec crew gathered around a signed SherpaSec community board" >}}
+{{< imgc src="defcon-sg-2026/Crew-Picture-1.jpg" alt="SherpaSec crew gathered around a signed SherpaSec community board" >}}
 
 Meeting people from around the world who care about the same things, face to face, is the whole reason we do what we do.
 

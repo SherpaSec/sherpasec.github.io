@@ -12,7 +12,7 @@ categories: Past Events
 tags: Past Events
 ---
 
-Our twenty-second community meetup brought us back to UNITEN for the first time in nearly a year, where cybersecurity professionals, students, and enthusiasts gathered for an evening of learning, friendly competition, and community engagement.
+Our twenty-third community meetup brought us back to UNITEN for the first time in nearly a year, where cybersecurity professionals, students, and enthusiasts gathered for an evening of learning, friendly competition, and community engagement.
 
 The session featured Trailbl4z3r, Cyber Team Coach for WorldSkills Malaysia, who delivered his talk, **"Dead or Alive: CTF – Is It Still Relevant?"** Drawing from his extensive experience in competitive cybersecurity and the industry, he explored how artificial intelligence is reshaping the CTF landscape, discussing both the opportunities it presents and the challenges it introduces for aspiring cybersecurity practitioners.
 

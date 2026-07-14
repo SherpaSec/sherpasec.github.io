@@ -12,14 +12,14 @@ categories: Past Events
 tags: Past Events
 ---
 
-Our twenty-second community meetup was held at UNITEN, bringing together cybersecurity professionals, students, and enthusiasts for an evening of discussion, friendly competition, and community engagement.
+Our twenty-second community meetup brought us back to UNITEN for the first time in nearly a year, where cybersecurity professionals, students, and enthusiasts gathered for an evening of learning, friendly competition, and community engagement.
 
-The evening opened with a session by Trailbl4z3r, one of our long-time community members and a Cyber Team coach for WorldSkills Malaysia. In his talk, "Dead or Alive: CTF – Is It Still Relevant?", he explored the evolving role of Capture The Flag competitions in today's cybersecurity landscape, discussing their continued value in skill development alongside the growing influence of AI on the competitive scene.
+The session featured Trailbl4z3r, Cyber Team Coach for WorldSkills Malaysia, who delivered his talk, **"Dead or Alive: CTF – Is It Still Relevant?"** Drawing from his extensive experience in competitive cybersecurity and the industry, he explored how artificial intelligence is reshaping the CTF landscape, discussing both the opportunities it presents and the challenges it introduces for aspiring cybersecurity practitioners.
 
-Following the talk, attendees took part in an interactive game of Hacker Jeopardy, where participants tested their cybersecurity knowledge across a variety of topics in a fun and engaging format. The session encouraged collaboration, discussion, and a healthy dose of friendly competition, making it a memorable experience for everyone involved.
+The evening continued with an interactive **Hacker Jeopardy** session inspired by DEF CON, giving attendees the chance to put their cybersecurity knowledge to the test in a fun and engaging environment. With plenty of laughter, friendly competition, and even a memorable soya drinking challenge, the activity provided a unique way for participants to learn while connecting with fellow community members.
 
-As always, the meetup also provided opportunities for networking and knowledge sharing, allowing members of the community to reconnect and exchange ideas.
+We would also like to extend our sincere appreciation to the team at CLICQ for supporting the event and helping us prepare the venue. Their assistance ensured the session ran smoothly and allowed us to welcome everyone without delay.
 
-Thank you to UNITEN for hosting us, and to everyone who joined us and contributed to another enjoyable evening. We look forward to seeing you at the next meetup!
+Thank you to everyone who joined us and made the evening another memorable gathering for the community. We look forward to seeing you again at our next meetup.
 
 {{< imgc src="posters/poster-june-2026.jpg" alt="Event Poster" >}}

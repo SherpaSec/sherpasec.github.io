@@ -7,6 +7,7 @@ enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
 paginate: 9
+timeout: 600s
 darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
@@ -221,10 +222,6 @@ menu:
       weight: 11
 
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
 
 taxonomies:
   category: Categories
